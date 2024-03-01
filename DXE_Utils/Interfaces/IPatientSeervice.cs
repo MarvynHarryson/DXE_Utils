@@ -1,13 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DXE_Utils.Interfaces
+﻿namespace DXE_Utils.Interfaces
 {
     public interface IPatientSeervice
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public Task InsertOnePatient();
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Cuantity"></param>
+        /// <returns></returns>
+        public Task InsertPatients(int Cuantity);
     }
 }

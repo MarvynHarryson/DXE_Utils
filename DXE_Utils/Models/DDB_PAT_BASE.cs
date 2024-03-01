@@ -2,2153 +2,626 @@
 {
     public class DDB_PAT_BASE
     {
-        private int _PATID;
-        public int PATID
-        {
-            get { return _PATID; }
-            set { _PATID = value; }
-        }
-
-        private int _PATDB;
-        public int PATDB
-        {
-            get { return _PATDB; }
-            set { _PATDB = value; }
-        }
-
-        private int? _FAMILYID;
-        public int? FAMILYID
-        {
-            get { return _FAMILYID; }
-            set { _FAMILYID = value; }
-        }
-
-        private int? _GUARID;
-        public int? GUARID
-        {
-            get { return _GUARID; }
-            set { _GUARID = value; }
-        }
-
-        private int? _GUARDB;
-        public int? GUARDB
-        {
-            get { return _GUARDB; }
-            set { _GUARDB = value; }
-        }
-
-        private int? _PRINSUREDID;
-        public int? PRINSUREDID
-        {
-            get { return _PRINSUREDID; }
-            set { _PRINSUREDID = value; }
-        }
-
-        private int? _PRINSUREDDB;
-        public int? PRINSUREDDB
-        {
-            get { return _PRINSUREDDB; }
-            set { _PRINSUREDDB = value; }
-        }
-
-        private int? _SCINSUREDID;
-        public int? SCINSUREDID
-        {
-            get { return _SCINSUREDID; }
-            set { _SCINSUREDID = value; }
-        }
-
-        private int? _SCINSUREDDB;
-        public int? SCINSUREDDB
-        {
-            get { return _SCINSUREDDB; }
-            set { _SCINSUREDDB = value; }
-        }
-
-        private int? _ADDRESSID;
-        public int? ADDRESSID
-        {
-            get { return _ADDRESSID; }
-            set { _ADDRESSID = value; }
-        }
-
-        private int? _ADDRESSDB;
-        public int? ADDRESSDB
-        {
-            get { return _ADDRESSDB; }
-            set { _ADDRESSDB = value; }
-        }
-
-        private int? _EMPID;
-        public int? EMPID
-        {
-            get { return _EMPID; }
-            set { _EMPID = value; }
-        }
-
-        private int? _EMPDB;
-        public int? EMPDB
-        {
-            get { return _EMPDB; }
-            set { _EMPDB = value; }
-        }
-
-        private int? _CLAIMINFID;
-        public int? CLAIMINFID
-        {
-            get { return _CLAIMINFID; }
-            set { _CLAIMINFID = value; }
-        }
-
-        private int? _CLAIMINFDB;
-        public int? CLAIMINFDB
-        {
-            get { return _CLAIMINFDB; }
-            set { _CLAIMINFDB = value; }
-        }
-
-        private int? _PRPROVID;
-        public int? PRPROVID
-        {
-            get { return _PRPROVID; }
-            set { _PRPROVID = value; }
-        }
-
-        private int? _PRPROVDB;
-        public int? PRPROVDB
-        {
-            get { return _PRPROVDB; }
-            set { _PRPROVDB = value; }
-        }
-
-        private int? _SCPROVID;
-        public int? SCPROVID
-        {
-            get { return _SCPROVID; }
-            set { _SCPROVID = value; }
-        }
-
-        private int? _SCPROVDB;
-        public int? SCPROVDB
-        {
-            get { return _SCPROVDB; }
-            set { _SCPROVDB = value; }
-        }
-
-        private int? _REFTOID;
-        public int? REFTOID
-        {
-            get { return _REFTOID; }
-            set { _REFTOID = value; }
-        }
-
-        private int? _REFTODB;
-        public int? REFTODB
-        {
-            get { return _REFTODB; }
-            set { _REFTODB = value; }
-        }
-
-        private int? _REFBYDOCID;
-        public int? REFBYDOCID
-        {
-            get { return _REFBYDOCID; }
-            set { _REFBYDOCID = value; }
-        }
-
-        private int? _REFBYDOCDB;
-        public int? REFBYDOCDB
-        {
-            get { return _REFBYDOCDB; }
-            set { _REFBYDOCDB = value; }
-        }
-
-        private int? _REFBYPATID;
-        public int? REFBYPATID
-        {
-            get { return _REFBYPATID; }
-            set { _REFBYPATID = value; }
-        }
-
-        private int? _REFBYPATDB;
-        public int? REFBYPATDB
-        {
-            get { return _REFBYPATDB; }
-            set { _REFBYPATDB = value; }
-        }
-
-        private int? _PRMEDINSID;
-        public int? PRMEDINSID
-        {
-            get { return _PRMEDINSID; }
-            set { _PRMEDINSID = value; }
-        }
-
-        private int? _PRMEDINSDB;
-        public int? PRMEDINSDB
-        {
-            get { return _PRMEDINSDB; }
-            set { _PRMEDINSDB = value; }
-        }
-
-        private int? _SCMEDINSID;
-        public int? SCMEDINSID
-        {
-            get { return _SCMEDINSID; }
-            set { _SCMEDINSID = value; }
-        }
-
-        private int? _SCMEDINSDB;
-        public int? SCMEDINSDB
-        {
-            get { return _SCMEDINSDB; }
-            set { _SCMEDINSDB = value; }
-        }
-
-        private string? _LASTNAME;
-        public string? LASTNAME
-        {
-            get { return _LASTNAME; }
-            set { _LASTNAME = value; }
-        }
-
-        private string? _FIRSTNAME;
-        public string? FIRSTNAME
-        {
-            get { return _FIRSTNAME; }
-            set { _FIRSTNAME = value; }
-        }
-
-        private string? _MI;
-        public string? MI
-        {
-            get { return _MI; }
-            set { _MI = value; }
-        }
-
-        private string? _PREFNAME;
-        public string? PREFNAME
-        {
-            get { return _PREFNAME; }
-            set { _PREFNAME = value; }
-        }
-
-        private string? _SALUTATION;
-        public string? SALUTATION
-        {
-            get { return _SALUTATION; }
-            set { _SALUTATION = value; }
-        }
-
-        private string? _WKEXT;
-        public string? WKEXT
-        {
-            get { return _WKEXT; }
-            set { _WKEXT = value; }
-        }
-
-        private string? _BESTTIME;
-        public string? BESTTIME
-        {
-            get { return _BESTTIME; }
-            set { _BESTTIME = value; }
-        }
-
-        private string? _CHART;
-        public string? CHART
-        {
-            get { return _CHART; }
-            set { _CHART = value; }
-        }
-
-        private int? _CHARTDB;
-        public int? CHARTDB
-        {
-            get { return _CHARTDB; }
-            set { _CHARTDB = value; }
-        }
-
-        private string? _SS;
-        public string? SS
-        {
-            get { return _SS; }
-            set { _SS = value; }
-        }
-
-        private int? _SSNDB;
-        public int? SSNDB
-        {
-            get { return _SSNDB; }
-            set { _SSNDB = value; }
-        }
-
-        private short _GUARFLG;
-        public short GUARFLG
-        {
-            get { return _GUARFLG; }
-            set { _GUARFLG = value; }
-        }
-
-        private short _INSPFLG;
-        public short INSPFLG
-        {
-            get { return _INSPFLG; }
-            set { _INSPFLG = value; }
-        }
-
-        private short _HEADHFLG;
-        public short HEADHFLG
-        {
-            get { return _HEADHFLG; }
-            set { _HEADHFLG = value; }
-        }
-
-        private short _GENDER;
-        public short GENDER
-        {
-            get { return _GENDER; }
-            set { _GENDER = value; }
-        }
-
-        private short _STATUS;
-        public short STATUS
-        {
-            get { return _STATUS; }
-            set { _STATUS = value; }
-        }
-
-        private short _FAMPOS;
-        public short FAMPOS
-        {
-            get { return _FAMPOS; }
-            set { _FAMPOS = value; }
-        }
-
-        private short _PREMED;
-        public short PREMED
-        {
-            get { return _PREMED; }
-            set { _PREMED = value; }
-        }
-
-        private DateTime? _BIRTHDATE;
-        public DateTime? BIRTHDATE
-        {
-            get { return _BIRTHDATE; }
-            set { _BIRTHDATE = value; }
-        }
-
-        private DateTime? _FIRSTVISITDATE;
-        public DateTime? FIRSTVISITDATE
-        {
-            get { return _FIRSTVISITDATE; }
-            set { _FIRSTVISITDATE = value; }
-        }
-
-        private DateTime? _LASTVISITDATE;
-        public DateTime? LASTVISITDATE
-        {
-            get { return _LASTVISITDATE; }
-            set { _LASTVISITDATE = value; }
-        }
-
-        private DateTime? _REFTODATE;
-        public DateTime? REFTODATE
-        {
-            get { return _REFTODATE; }
-            set { _REFTODATE = value; }
-        }
-
-        private DateTime? _CONSENTDATE;
-        public DateTime? CONSENTDATE
-        {
-            get { return _CONSENTDATE; }
-            set { _CONSENTDATE = value; }
-        }
-
-        private short _PRINSREL;
-        public short PRINSREL
-        {
-            get { return _PRINSREL; }
-            set { _PRINSREL = value; }
-        }
-
-        private short _SCINSREL;
-        public short SCINSREL
-        {
-            get { return _SCINSREL; }
-            set { _SCINSREL = value; }
-        }
-
-        private int? _PRBENEFITS;
-        public int? PRBENEFITS
-        {
-            get { return _PRBENEFITS; }
-            set { _PRBENEFITS = value; }
-        }
-
-        private int? _SCBENEFITS;
-        public int? SCBENEFITS
-        {
-            get { return _SCBENEFITS; }
-            set { _SCBENEFITS = value; }
-        }
-
-        private string? _WKPHONE;
-        public string? WKPHONE
-        {
-            get { return _WKPHONE; }
-            set { _WKPHONE = value; }
-        }
-
-        private int? _FEESCHFLAG;
-        public int? FEESCHFLAG
-        {
-            get { return _FEESCHFLAG; }
-            set { _FEESCHFLAG = value; }
-        }
-
-        private int? _MISSEDAPPT;
-        public int? MISSEDAPPT
-        {
-            get { return _MISSEDAPPT; }
-            set { _MISSEDAPPT = value; }
-        }
-
-        private DateTime? _LASTMISSEDAPPT;
-        public DateTime? LASTMISSEDAPPT
-        {
-            get { return _LASTMISSEDAPPT; }
-            set { _LASTMISSEDAPPT = value; }
-        }
-
-        private string? _TITLE;
-        public string? TITLE
-        {
-            get { return _TITLE; }
-            set { _TITLE = value; }
-        }
-
-        private string? _ID2;
-        public string? ID2
-        {
-            get { return _ID2; }
-            set { _ID2 = value; }
-        }
-
-        private short _TITLEFLG;
-        public short TITLEFLG
-        {
-            get { return _TITLEFLG; }
-            set { _TITLEFLG = value; }
-        }
-
-        private int? _EZDWPATID;
-        public int? EZDWPATID
-        {
-            get { return _EZDWPATID; }
-            set { _EZDWPATID = value; }
-        }
-
-        private string? _EMAILADDRESS;
-        public string? EMAILADDRESS
-        {
-            get { return _EMAILADDRESS; }
-            set { _EMAILADDRESS = value; }
-        }
-
-        private string? _DRIVERSLICENSE;
-        public string? DRIVERSLICENSE
-        {
-            get { return _DRIVERSLICENSE; }
-            set { _DRIVERSLICENSE = value; }
-        }
-
-        private string? _FAX;
-        public string? FAX
-        {
-            get { return _FAX; }
-            set { _FAX = value; }
-        }
-
-        private string? _PAGER;
-        public string? PAGER
-        {
-            get { return _PAGER; }
-            set { _PAGER = value; }
-        }
-
-        private string? _OTHERPHONE;
-        public string? OTHERPHONE
-        {
-            get { return _OTHERPHONE; }
-            set { _OTHERPHONE = value; }
-        }
-
-        private int? _PRDED;
-        public int? PRDED
-        {
-            get { return _PRDED; }
-            set { _PRDED = value; }
-        }
-
-        private int? _PRDED2;
-        public int? PRDED2
-        {
-            get { return _PRDED2; }
-            set { _PRDED2 = value; }
-        }
-
-        private int? _PRDED3;
-        public int? PRDED3
-        {
-            get { return _PRDED3; }
-            set { _PRDED3 = value; }
-        }
-
-        private int? _SCDED;
-        public int? SCDED
-        {
-            get { return _SCDED; }
-            set { _SCDED = value; }
-        }
-
-        private int? _SCDED2;
-        public int? SCDED2
-        {
-            get { return _SCDED2; }
-            set { _SCDED2 = value; }
-        }
-
-        private int? _SCDED3;
-        public int? SCDED3
-        {
-            get { return _SCDED3; }
-            set { _SCDED3 = value; }
-        }
-
-        private int? _PRDEDUCTLT;
-        public int? PRDEDUCTLT
-        {
-            get { return _PRDEDUCTLT; }
-            set { _PRDEDUCTLT = value; }
-        }
-
-        private int? _PRDEDUCTLT2;
-        public int? PRDEDUCTLT2
-        {
-            get { return _PRDEDUCTLT2; }
-            set { _PRDEDUCTLT2 = value; }
-        }
-
-        private int? _PRDEDUCTLT3;
-        public int? PRDEDUCTLT3
-        {
-            get { return _PRDEDUCTLT3; }
-            set { _PRDEDUCTLT3 = value; }
-        }
-
-        private int? _SCDEDUCTLT;
-        public int? SCDEDUCTLT
-        {
-            get { return _SCDEDUCTLT; }
-            set { _SCDEDUCTLT = value; }
-        }
-
-        private int? _SCDEDUCTLT2;
-        public int? SCDEDUCTLT2
-        {
-            get { return _SCDEDUCTLT2; }
-            set { _SCDEDUCTLT2 = value; }
-        }
-
-        private int? _SCDEDUCTLT3;
-        public int? SCDEDUCTLT3
-        {
-            get { return _SCDEDUCTLT3; }
-            set { _SCDEDUCTLT3 = value; }
-        }
-
-        private string? _MEDALERT;
-        public string? MEDALERT
-        {
-            get { return _MEDALERT; }
-            set { _MEDALERT = value; }
-        }
-
-        private int? _FEESCHEDID;
-        public int? FEESCHEDID
-        {
-            get { return _FEESCHEDID; }
-            set { _FEESCHEDID = value; }
-        }
-
-        private int? _FEESCHEDDB;
-        public int? FEESCHEDDB
-        {
-            get { return _FEESCHEDDB; }
-            set { _FEESCHEDDB = value; }
-        }
-
-        private short _PRMEDINSREL;
-        public short PRMEDINSREL
-        {
-            get { return _PRMEDINSREL; }
-            set { _PRMEDINSREL = value; }
-        }
-
-        private short _SCMEDINSREL;
-        public short SCMEDINSREL
-        {
-            get { return _SCMEDINSREL; }
-            set { _SCMEDINSREL = value; }
-        }
-
-        private short _PrInsCDADepCode;
-        public short PrInsCDADepCode
-        {
-            get { return _PrInsCDADepCode; }
-            set { _PrInsCDADepCode = value; }
-        }
-
-        private short _ScInsCDADepCode;
-        public short ScInsCDADepCode
-        {
-            get { return _ScInsCDADepCode; }
-            set { _ScInsCDADepCode = value; }
-        }
-
-        private short _ConsultFlag;
-        public short ConsultFlag
-        {
-            get { return _ConsultFlag; }
-            set { _ConsultFlag = value; }
-        }
-
-        private short _TOAFlag;
-        public short TOAFlag
-        {
-            get { return _TOAFlag; }
-            set { _TOAFlag = value; }
-        }
-
-        private int? _DefaultClinic;
-        public int? DefaultClinic
-        {
-            get { return _DefaultClinic; }
-            set { _DefaultClinic = value; }
-        }
-
-        private int? _OperatorID;
-        public int? OperatorID
-        {
-            get { return _OperatorID; }
-            set { _OperatorID = value; }
-        }
-
-        private int? _OperatorDB;
-        public int? OperatorDB
-        {
-            get { return _OperatorDB; }
-            set { _OperatorDB = value; }
-        }
-
-        private string? _UPLASTNAME;
-        public string? UPLASTNAME
-        {
-            get { return _UPLASTNAME; }
-            set { _UPLASTNAME = value; }
-        }
-
-        private string? _UPFIRSTNAME;
-        public string? UPFIRSTNAME
-        {
-            get { return _UPFIRSTNAME; }
-            set { _UPFIRSTNAME = value; }
-        }
-
-        private string? _UPCHART;
-        public string? UPCHART
-        {
-            get { return _UPCHART; }
-            set { _UPCHART = value; }
-        }
-
-        private short _ACTIVE;
-        public short ACTIVE
-        {
-            get { return _ACTIVE; }
-            set { _ACTIVE = value; }
-        }
-
-        private short _PATALERT;
-        public short PATALERT
-        {
-            get { return _PATALERT; }
-            set { _PATALERT = value; }
-        }
-
-        private string? _Suffix;
-        public string? Suffix
-        {
-            get { return _Suffix; }
-            set { _Suffix = value; }
-        }
-
-        private string? _CountyName;
-        public string? CountyName
-        {
-            get { return _CountyName; }
-            set { _CountyName = value; }
-        }
-
-        private string? _EmpStatus;
-        public string? EmpStatus
-        {
-            get { return _EmpStatus; }
-            set { _EmpStatus = value; }
-        }
-
-        private short _Race;
-        public short Race
-        {
-            get { return _Race; }
-            set { _Race = value; }
-        }
-
-        private int? _FamIncome;
-        public int? FamIncome
-        {
-            get { return _FamIncome; }
-            set { _FamIncome = value; }
-        }
-
-        private string? _ExternalStatus;
-        public string? ExternalStatus
-        {
-            get { return _ExternalStatus; }
-            set { _ExternalStatus = value; }
-        }
-
-        private string? _PatExtID;
-        public string? PatExtID
-        {
-            get { return _PatExtID; }
-            set { _PatExtID = value; }
-        }
-
-        private string? _GuarantorExtID;
-        public string? GuarantorExtID
-        {
-            get { return _GuarantorExtID; }
-            set { _GuarantorExtID = value; }
-        }
-
-        private string? _EntrySystem;
-        public string? EntrySystem
-        {
-            get { return _EntrySystem; }
-            set { _EntrySystem = value; }
-        }
-
-        private DateTime? _EntryDateTime;
-        public DateTime? EntryDateTime
-        {
-            get { return _EntryDateTime; }
-            set { _EntryDateTime = value; }
-        }
-
-        private string? _LastUpdateMethod;
-        public string? LastUpdateMethod
-        {
-            get { return _LastUpdateMethod; }
-            set { _LastUpdateMethod = value; }
-        }
-
-        private string? _LastUpdateSystem;
-        public string? LastUpdateSystem
-        {
-            get { return _LastUpdateSystem; }
-            set { _LastUpdateSystem = value; }
-        }
-
-        private string? _VisitNumber;
-        public string? VisitNumber
-        {
-            get { return _VisitNumber; }
-            set { _VisitNumber = value; }
-        }
-
-        private int? _PATIMAGEID;
-        public int? PATIMAGEID
-        {
-            get { return _PATIMAGEID; }
-            set { _PATIMAGEID = value; }
-        }
-
-        private int? _INITPROVID;
-        public int? INITPROVID
-        {
-            get { return _INITPROVID; }
-            set { _INITPROVID = value; }
-        }
-
-        private int? _INITPROVDB;
-        public int? INITPROVDB
-        {
-            get { return _INITPROVDB; }
-            set { _INITPROVDB = value; }
-        }
-
-        private short _RELIGION;
-        public short RELIGION
-        {
-            get { return _RELIGION; }
-            set { _RELIGION = value; }
-        }
-
-        private int? _RVUID;
-        public int? RVUID
-        {
-            get { return _RVUID; }
-            set { _RVUID = value; }
-        }
-
-        private int? _RVUDB;
-        public int? RVUDB
-        {
-            get { return _RVUDB; }
-            set { _RVUDB = value; }
-        }
-
-        private DateTime? _MedHistoryViewDate;
-        public DateTime? MedHistoryViewDate
-        {
-            get { return _MedHistoryViewDate; }
-            set { _MedHistoryViewDate = value; }
-        }
-
-        private DateTime? _DDBLASTMOD;
-        public DateTime? DDBLASTMOD
-        {
-            get { return _DDBLASTMOD; }
-            set { _DDBLASTMOD = value; }
-        }
-
-        private string? _PatClass;
-        public string? PatClass
-        {
-            get { return _PatClass; }
-            set { _PatClass = value; }
-        }
-
-        private string? _PatFacility;
-        public string? PatFacility
-        {
-            get { return _PatFacility; }
-            set { _PatFacility = value; }
-        }
-
-        private string? _PatAliasLastName;
-        public string? PatAliasLastName
-        {
-            get { return _PatAliasLastName; }
-            set { _PatAliasLastName = value; }
-        }
-
-        private string? _PatAliasFirstName;
-        public string? PatAliasFirstName
-        {
-            get { return _PatAliasFirstName; }
-            set { _PatAliasFirstName = value; }
-        }
-
-        private string? _PatAliasMiddleName;
-        public string? PatAliasMiddleName
-        {
-            get { return _PatAliasMiddleName; }
-            set { _PatAliasMiddleName = value; }
-        }
-
-        private string? _PatAliasSuffix;
-        public string? PatAliasSuffix
-        {
-            get { return _PatAliasSuffix; }
-            set { _PatAliasSuffix = value; }
-        }
-
-        private string? _PatAliasPrefix;
-        public string? PatAliasPrefix
-        {
-            get { return _PatAliasPrefix; }
-            set { _PatAliasPrefix = value; }
-        }
-
-        private string? _MotherMaidenLName;
-        public string? MotherMaidenLName
-        {
-            get { return _MotherMaidenLName; }
-            set { _MotherMaidenLName = value; }
-        }
-
-        private string? _MotherMaidenFName;
-        public string? MotherMaidenFName
-        {
-            get { return _MotherMaidenFName; }
-            set { _MotherMaidenFName = value; }
-        }
-
-        private string? _MotherMaidenMName;
-        public string? MotherMaidenMName
-        {
-            get { return _MotherMaidenMName; }
-            set { _MotherMaidenMName = value; }
-        }
-
-        private string? _MotherMaidenSuffix;
-        public string? MotherMaidenSuffix
-        {
-            get { return _MotherMaidenSuffix; }
-            set { _MotherMaidenSuffix = value; }
-        }
-
-        private string? _MotherMaidenPrefix;
-        public string? MotherMaidenPrefix
-        {
-            get { return _MotherMaidenPrefix; }
-            set { _MotherMaidenPrefix = value; }
-        }
-
-        private DateTime? _PatientDeathDate;
-        public DateTime? PatientDeathDate
-        {
-            get { return _PatientDeathDate; }
-            set { _PatientDeathDate = value; }
-        }
-
-        private short _Language;
-        public short Language
-        {
-            get { return _Language; }
-            set { _Language = value; }
-        }
-
-        private short _PovertyLevel;
-        public short PovertyLevel
-        {
-            get { return _PovertyLevel; }
-            set { _PovertyLevel = value; }
-        }
-
-        private short _WorkerStatus;
-        public short WorkerStatus
-        {
-            get { return _WorkerStatus; }
-            set { _WorkerStatus = value; }
-        }
-
-        private short _HomelessStatus;
-        public short HomelessStatus
-        {
-            get { return _HomelessStatus; }
-            set { _HomelessStatus = value; }
-        }
-
-        private short _PrivacyFlags;
-        public short PrivacyFlags
-        {
-            get { return _PrivacyFlags; }
-            set { _PrivacyFlags = value; }
-        }
-
-        private short _PATCOPIED;
-        public short PATCOPIED
-        {
-            get { return _PATCOPIED; }
-            set { _PATCOPIED = value; }
-        }
-
-        private string? _Tempchart;
-        public string? Tempchart
-        {
-            get { return _Tempchart; }
-            set { _Tempchart = value; }
-        }
-
-        private short _Veteran;
-        public short Veteran
-        {
-            get { return _Veteran; }
-            set { _Veteran = value; }
-        }
-
-        private string? _GUIDID;
-        public string? GUIDID
-        {
-            get { return _GUIDID; }
-            set { _GUIDID = value; }
-        }
-
-        private int? _TertDentInsuredID;
-        public int? TertDentInsuredID
-        {
-            get { return _TertDentInsuredID; }
-            set { _TertDentInsuredID = value; }
-        }
-
-        private int? _TertDentInsuredDB;
-        public int? TertDentInsuredDB
-        {
-            get { return _TertDentInsuredDB; }
-            set { _TertDentInsuredDB = value; }
-        }
-
-        private int? _QuatDentInsuredID;
-        public int? QuatDentInsuredID
-        {
-            get { return _QuatDentInsuredID; }
-            set { _QuatDentInsuredID = value; }
-        }
-
-        private int? _QuatDentInsuredDB;
-        public int? QuatDentInsuredDB
-        {
-            get { return _QuatDentInsuredDB; }
-            set { _QuatDentInsuredDB = value; }
-        }
-
-        private short _TertInsRel;
-        public short TertInsRel
-        {
-            get { return _TertInsRel; }
-            set { _TertInsRel = value; }
-        }
-
-        private short _QuatInsRel;
-        public short QuatInsRel
-        {
-            get { return _QuatInsRel; }
-            set { _QuatInsRel = value; }
-        }
-
-        private short _TertInsCDADepCode;
-        public short TertInsCDADepCode
-        {
-            get { return _TertInsCDADepCode; }
-            set { _TertInsCDADepCode = value; }
-        }
-
-        private short _QuatInsCDADepCode;
-        public short QuatInsCDADepCode
-        {
-            get { return _QuatInsCDADepCode; }
-            set { _QuatInsCDADepCode = value; }
-        }
-
-        private string? _OVERRIDEUSERID;
-        public string? OVERRIDEUSERID
-        {
-            get { return _OVERRIDEUSERID; }
-            set { _OVERRIDEUSERID = value; }
-        }
-
-        private string? _PermDescript;
-        public string? PermDescript
-        {
-            get { return _PermDescript; }
-            set { _PermDescript = value; }
-        }
-
-        private int? _EthnicityID;
-        public int? EthnicityID
-        {
-            get { return _EthnicityID; }
-            set { _EthnicityID = value; }
-        }
-
-        private int? _UDPatCatID;
-        public int? UDPatCatID
-        {
-            get { return _UDPatCatID; }
-            set { _UDPatCatID = value; }
-        }
-
-        private string? _ExtPatIDType;
-        public string? ExtPatIDType
-        {
-            get { return _ExtPatIDType; }
-            set { _ExtPatIDType = value; }
-        }
-
-        private string? _ExtGuarIDType;
-        public string? ExtGuarIDType
-        {
-            get { return _ExtGuarIDType; }
-            set { _ExtGuarIDType = value; }
-        }
-
-        private string? _PatExtID2;
-        public string? PatExtID2
-        {
-            get { return _PatExtID2; }
-            set { _PatExtID2 = value; }
-        }
-
-        private string? _ExtPatID2Type;
-        public string? ExtPatID2Type
-        {
-            get { return _ExtPatID2Type; }
-            set { _ExtPatID2Type = value; }
-        }
-
-        private string? _PatType;
-        public string? PatType
-        {
-            get { return _PatType; }
-            set { _PatType = value; }
-        }
-
-        private string? _AccountStatus;
-        public string? AccountStatus
-        {
-            get { return _AccountStatus; }
-            set { _AccountStatus = value; }
-        }
-
-        private short _FinancialClassID;
-        public short FinancialClassID
-        {
-            get { return _FinancialClassID; }
-            set { _FinancialClassID = value; }
-        }
-
-        private string? _PatAccountNumber;
-        public string? PatAccountNumber
-        {
-            get { return _PatAccountNumber; }
-            set { _PatAccountNumber = value; }
-        }
-
-        private int? _DeclinedEmail;
-        public int? DeclinedEmail
-        {
-            get { return _DeclinedEmail; }
-            set { _DeclinedEmail = value; }
-        }
-
-        private short _CommunicationPref;
-        public short CommunicationPref
-        {
-            get { return _CommunicationPref; }
-            set { _CommunicationPref = value; }
-        }
-
-        private int? _SmokingStatusID;
-        public int? SmokingStatusID
-        {
-            get { return _SmokingStatusID; }
-            set { _SmokingStatusID = value; }
-        }
-
-        private int? _SmokingStatusDB;
-        public int? SmokingStatusDB
-        {
-            get { return _SmokingStatusDB; }
-            set { _SmokingStatusDB = value; }
-        }
-
-        private short _RxAutoRefill;
-        public short RxAutoRefill
-        {
-            get { return _RxAutoRefill; }
-            set { _RxAutoRefill = value; }
-        }
-
-        private short _OtherRace;
-        public short OtherRace
-        {
-            get { return _OtherRace; }
-            set { _OtherRace = value; }
-        }
-
-        private short _HousingStatus;
-        public short HousingStatus
-        {
-            get { return _HousingStatus; }
-            set { _HousingStatus = value; }
-        }
-
-        private int? _FamSize;
-        public int? FamSize
-        {
-            get { return _FamSize; }
-            set { _FamSize = value; }
-        }
-
-        private int? _SexualOrientation;
-        public int? SexualOrientation
-        {
-            get { return _SexualOrientation; }
-            set { _SexualOrientation = value; }
-        }
-
-        private int? _GenderIdentity;
-        public int? GenderIdentity
-        {
-            get { return _GenderIdentity; }
-            set { _GenderIdentity = value; }
-        }
-
-        private int? _HohIncome;
-        public int? HohIncome
-        {
-            get { return _HohIncome; }
-            set { _HohIncome = value; }
-        }
-
-        private int? _IncomeRecurr;
-        public int? IncomeRecurr
-        {
-            get { return _IncomeRecurr; }
-            set { _IncomeRecurr = value; }
-        }
-
-        private int _PracticeIdInt;
-        public int PracticeIdInt
-        {
-            get { return _PracticeIdInt; }
-            set { _PracticeIdInt = value; }
-        }
-
-        private DateTime? _LastUpdateTimestamp;
-        public DateTime? LastUpdateTimestamp
-        {
-            get { return _LastUpdateTimestamp; }
-            set { _LastUpdateTimestamp = value; }
-        }
-
-        private bool? _IsDeletedFromSource;
-        public bool? IsDeletedFromSource
-        {
-            get { return _IsDeletedFromSource; }
-            set { _IsDeletedFromSource = value; }
-        }
-
-        private DateTime? _MinProcDateDi;
-        public DateTime? MinProcDateDi
-        {
-            get { return _MinProcDateDi; }
-            set { _MinProcDateDi = value; }
-        }
-
-        private DateTime? _MaxProcDateDi;
-        public DateTime? MaxProcDateDi
-        {
-            get { return _MaxProcDateDi; }
-            set { _MaxProcDateDi = value; }
-        }
-
-        private DateTime? _LastPerioProcDi;
-        public DateTime? LastPerioProcDi
-        {
-            get { return _LastPerioProcDi; }
-            set { _LastPerioProcDi = value; }
-        }
-
-        private DateTime? _LastHygieneProcDi;
-        public DateTime? LastHygieneProcDi
-        {
-            get { return _LastHygieneProcDi; }
-            set { _LastHygieneProcDi = value; }
-        }
-
-        private decimal? _PatientValue0to6;
-        public decimal? PatientValue0to6
-        {
-            get { return _PatientValue0to6; }
-            set { _PatientValue0to6 = value; }
-        }
-
-        private decimal? _PatientValue7to12;
-        public decimal? PatientValue7to12
-        {
-            get { return _PatientValue7to12; }
-            set { _PatientValue7to12 = value; }
-        }
-
-        private decimal? _PatientValue13to18;
-        public decimal? PatientValue13to18
-        {
-            get { return _PatientValue13to18; }
-            set { _PatientValue13to18 = value; }
-        }
-
-        private decimal? _PatientValue19to24;
-        public decimal? PatientValue19to24
-        {
-            get { return _PatientValue19to24; }
-            set { _PatientValue19to24 = value; }
-        }
-
-        private decimal? _PatientValue25to30;
-        public decimal? PatientValue25to30
-        {
-            get { return _PatientValue25to30; }
-            set { _PatientValue25to30 = value; }
-        }
-
-        private decimal? _PatientValue31to36;
-        public decimal? PatientValue31to36
-        {
-            get { return _PatientValue31to36; }
-            set { _PatientValue31to36 = value; }
-        }
-
-        private decimal? _UnScheduledTX;
-        public decimal? UnScheduledTX
-        {
-            get { return _UnScheduledTX; }
-            set { _UnScheduledTX = value; }
-        }
-
-        private decimal? _TotalTX;
-        public decimal? TotalTX
-        {
-            get { return _TotalTX; }
-            set { _TotalTX = value; }
-        }
-
-        private DateTime? _NextHygieneAppt;
-        public DateTime? NextHygieneAppt
-        {
-            get { return _NextHygieneAppt; }
-            set { _NextHygieneAppt = value; }
-        }
-
-        private DateTime? _NextNonHygieneAppt;
-        public DateTime? NextNonHygieneAppt
-        {
-            get { return _NextNonHygieneAppt; }
-            set { _NextNonHygieneAppt = value; }
-        }
-
-        private DateTime? _StatusModifiedDate;
-        public DateTime? StatusModifiedDate
-        {
-            get { return _StatusModifiedDate; }
-            set { _StatusModifiedDate = value; }
-        }
-
-        private int? _HygieneIntervalDi;
-        public int? HygieneIntervalDi
-        {
-            get { return _HygieneIntervalDi; }
-            set { _HygieneIntervalDi = value; }
-        }
-
-        private string? _PrimaryInsuranceDI;
-        public string? PrimaryInsuranceDI
-        {
-            get { return _PrimaryInsuranceDI; }
-            set { _PrimaryInsuranceDI = value; }
-        }
-
-        private string? _SecondaryInsuranceDI;
-        public string? SecondaryInsuranceDI
-        {
-            get { return _SecondaryInsuranceDI; }
-            set { _SecondaryInsuranceDI = value; }
-        }
-
-        private decimal? _RemainingInsuranceDI;
-        public decimal? RemainingInsuranceDI
-        {
-            get { return _RemainingInsuranceDI; }
-            set { _RemainingInsuranceDI = value; }
-        }
-
-        private DateTime? _FirstPerioProcDI;
-        public DateTime? FirstPerioProcDI
-        {
-            get { return _FirstPerioProcDI; }
-            set { _FirstPerioProcDI = value; }
-        }
-
-        private DateTime? _NextRestorativeAppointmentDI;
-        public DateTime? NextRestorativeAppointmentDI
-        {
-            get { return _NextRestorativeAppointmentDI; }
-            set { _NextRestorativeAppointmentDI = value; }
-        }
-
-        private DateTime? _NextMiscAppointmentDI;
-        public DateTime? NextMiscAppointmentDI
-        {
-            get { return _NextMiscAppointmentDI; }
-            set { _NextMiscAppointmentDI = value; }
-        }
-
-        private decimal? _RemainingPrimaryInsuranceDI;
-        public decimal? RemainingPrimaryInsuranceDI
-        {
-            get { return _RemainingPrimaryInsuranceDI; }
-            set { _RemainingPrimaryInsuranceDI = value; }
-        }
-
-        private decimal? _RemainingSecondaryInsuranceDI;
-        public decimal? RemainingSecondaryInsuranceDI
-        {
-            get { return _RemainingSecondaryInsuranceDI; }
-            set { _RemainingSecondaryInsuranceDI = value; }
-        }
-
-        private decimal? _Aging0To30Di;
-        public decimal? Aging0To30Di
-        {
-            get { return _Aging0To30Di; }
-            set { _Aging0To30Di = value; }
-        }
-
-        private decimal? _Aging31To60Di;
-        public decimal? Aging31To60Di
-        {
-            get { return _Aging31To60Di; }
-            set { _Aging31To60Di = value; }
-        }
-
-        private decimal? _Aging61To90Di;
-        public decimal? Aging61To90Di
-        {
-            get { return _Aging61To90Di; }
-            set { _Aging61To90Di = value; }
-        }
-
-        private decimal? _AgingPlus90Di;
-        public decimal? AgingPlus90Di
-        {
-            get { return _AgingPlus90Di; }
-            set { _AgingPlus90Di = value; }
-        }
-
-        private decimal? _TotalAgingDi;
-        public decimal? TotalAgingDi
-        {
-            get { return _TotalAgingDi; }
-            set { _TotalAgingDi = value; }
-        }
-
-        private decimal? _EstInsuranceAgingDi;
-        public decimal? EstInsuranceAgingDi
-        {
-            get { return _EstInsuranceAgingDi; }
-            set { _EstInsuranceAgingDi = value; }
-        }
-
-        private decimal? _EstPatientAgingDi;
-        public decimal? EstPatientAgingDi
-        {
-            get { return _EstPatientAgingDi; }
-            set { _EstPatientAgingDi = value; }
-        }
-
-        private string? _PrimaryProviderDI;
-        public string? PrimaryProviderDI
-        {
-            get { return _PrimaryProviderDI; }
-            set { _PrimaryProviderDI = value; }
-        }
-
-        private string? _SecondaryProviderDI;
-        public string? SecondaryProviderDI
-        {
-            get { return _SecondaryProviderDI; }
-            set { _SecondaryProviderDI = value; }
-        }
-
-        private string? _ReferralSourceDI;
-        public string? ReferralSourceDI
-        {
-            get { return _ReferralSourceDI; }
-            set { _ReferralSourceDI = value; }
-        }
-
-        private bool? _NextHygieneApptIsOnQuickFillDI;
-        public bool? NextHygieneApptIsOnQuickFillDI
-        {
-            get { return _NextHygieneApptIsOnQuickFillDI; }
-            set { _NextHygieneApptIsOnQuickFillDI = value; }
-        }
-
-        private bool? _NextNonHygieneApptIsOnQuickFillDI;
-        public bool? NextNonHygieneApptIsOnQuickFillDI
-        {
-            get { return _NextNonHygieneApptIsOnQuickFillDI; }
-            set { _NextNonHygieneApptIsOnQuickFillDI = value; }
-        }
-
-        private bool? _NextRestorativeApptIsOnQuickFillDI;
-        public bool? NextRestorativeApptIsOnQuickFillDI
-        {
-            get { return _NextRestorativeApptIsOnQuickFillDI; }
-            set { _NextRestorativeApptIsOnQuickFillDI = value; }
-        }
-
-        private bool? _NextMiscApptIsOnQuickFillDI;
-        public bool? NextMiscApptIsOnQuickFillDI
-        {
-            get { return _NextMiscApptIsOnQuickFillDI; }
-            set { _NextMiscApptIsOnQuickFillDI = value; }
-        }
-
-        private int? _FamilyMembersNotScheduledDI;
-        public int? FamilyMembersNotScheduledDI
-        {
-            get { return _FamilyMembersNotScheduledDI; }
-            set { _FamilyMembersNotScheduledDI = value; }
-        }
-
-        private decimal? _HygieneUnScheduledTXDI;
-        public decimal? HygieneUnScheduledTXDI
-        {
-            get { return _HygieneUnScheduledTXDI; }
-            set { _HygieneUnScheduledTXDI = value; }
-        }
-
-        private decimal? _RestorativeUnScheduledTXDI;
-        public decimal? RestorativeUnScheduledTXDI
-        {
-            get { return _RestorativeUnScheduledTXDI; }
-            set { _RestorativeUnScheduledTXDI = value; }
-        }
-
-        private decimal? _AppointmentCandidateWeightingRestorativeDI;
-        public decimal? AppointmentCandidateWeightingRestorativeDI
-        {
-            get { return _AppointmentCandidateWeightingRestorativeDI; }
-            set { _AppointmentCandidateWeightingRestorativeDI = value; }
-        }
-
-        private decimal? _AppointmentCandidateWeightingHygieneDI;
-        public decimal? AppointmentCandidateWeightingHygieneDI
-        {
-            get { return _AppointmentCandidateWeightingHygieneDI; }
-            set { _AppointmentCandidateWeightingHygieneDI = value; }
-        }
-
-        private DateTime? _NextHygieneApptEndTimeDI;
-        public DateTime? NextHygieneApptEndTimeDI
-        {
-            get { return _NextHygieneApptEndTimeDI; }
-            set { _NextHygieneApptEndTimeDI = value; }
-        }
-
-        private DateTime? _NextNonHygieneApptEndTimeDI;
-        public DateTime? NextNonHygieneApptEndTimeDI
-        {
-            get { return _NextNonHygieneApptEndTimeDI; }
-            set { _NextNonHygieneApptEndTimeDI = value; }
-        }
-
-        private DateTime? _NextRestorativeAppointmentEndTimeDI;
-        public DateTime? NextRestorativeAppointmentEndTimeDI
-        {
-            get { return _NextRestorativeAppointmentEndTimeDI; }
-            set { _NextRestorativeAppointmentEndTimeDI = value; }
-        }
-
-        private DateTime? _NextMiscAppointmentEndTimeDI;
-        public DateTime? NextMiscAppointmentEndTimeDI
-        {
-            get { return _NextMiscAppointmentEndTimeDI; }
-            set { _NextMiscAppointmentEndTimeDI = value; }
-        }
-
-        private bool? _PatientIsOnUnscheduledQuickFill;
-        public bool? PatientIsOnUnscheduledQuickFill
-        {
-            get { return _PatientIsOnUnscheduledQuickFill; }
-            set { _PatientIsOnUnscheduledQuickFill = value; }
-        }
-
-        private bool? _FupHygieneRecareChangedDi;
-        public bool? FupHygieneRecareChangedDi
-        {
-            get { return _FupHygieneRecareChangedDi; }
-            set { _FupHygieneRecareChangedDi = value; }
-        }
-
-        private bool? _FupARChangedDi;
-        public bool? FupARChangedDi
-        {
-            get { return _FupARChangedDi; }
-            set { _FupARChangedDi = value; }
-        }
-
-        private DateTime? _LastMajorFilmProcDi;
-        public DateTime? LastMajorFilmProcDi
-        {
-            get { return _LastMajorFilmProcDi; }
-            set { _LastMajorFilmProcDi = value; }
-        }
-
-        private DateTime? _LastBiteWingProcDi;
-        public DateTime? LastBiteWingProcDi
-        {
-            get { return _LastBiteWingProcDi; }
-            set { _LastBiteWingProcDi = value; }
-        }
-
-        private DateTime? _LastPanoProcDi;
-        public DateTime? LastPanoProcDi
-        {
-            get { return _LastPanoProcDi; }
-            set { _LastPanoProcDi = value; }
-        }
-
-        private DateTime? _LastFmxProcDi;
-        public DateTime? LastFmxProcDi
-        {
-            get { return _LastFmxProcDi; }
-            set { _LastFmxProcDi = value; }
-        }
-
-        private decimal? _UnScheduledTx0To30DI;
-        public decimal? UnScheduledTx0To30DI
-        {
-            get { return _UnScheduledTx0To30DI; }
-            set { _UnScheduledTx0To30DI = value; }
-        }
-
-        private decimal? _UnScheduledTx31To60DI;
-        public decimal? UnScheduledTx31To60DI
-        {
-            get { return _UnScheduledTx31To60DI; }
-            set { _UnScheduledTx31To60DI = value; }
-        }
-
-        private decimal? _UnScheduledTx61To90DI;
-        public decimal? UnScheduledTx61To90DI
-        {
-            get { return _UnScheduledTx61To90DI; }
-            set { _UnScheduledTx61To90DI = value; }
-        }
-
-        private decimal? _UnScheduledTxPlus90DI;
-        public decimal? UnScheduledTxPlus90DI
-        {
-            get { return _UnScheduledTxPlus90DI; }
-            set { _UnScheduledTxPlus90DI = value; }
-        }
-
-        private decimal? _RestorativeUnScheduledTx0To30DI;
-        public decimal? RestorativeUnScheduledTx0To30DI
-        {
-            get { return _RestorativeUnScheduledTx0To30DI; }
-            set { _RestorativeUnScheduledTx0To30DI = value; }
-        }
-
-        private decimal? _RestorativeUnScheduledTx31To60DI;
-        public decimal? RestorativeUnScheduledTx31To60DI
-        {
-            get { return _RestorativeUnScheduledTx31To60DI; }
-            set { _RestorativeUnScheduledTx31To60DI = value; }
-        }
-
-        private decimal? _RestorativeUnScheduledTx61To90DI;
-        public decimal? RestorativeUnScheduledTx61To90DI
-        {
-            get { return _RestorativeUnScheduledTx61To90DI; }
-            set { _RestorativeUnScheduledTx61To90DI = value; }
-        }
-
-        private decimal? _RestorativeUnScheduledTxPlus90DI;
-        public decimal? RestorativeUnScheduledTxPlus90DI
-        {
-            get { return _RestorativeUnScheduledTxPlus90DI; }
-            set { _RestorativeUnScheduledTxPlus90DI = value; }
-        }
-
-        private decimal? _HygieneUnScheduledTx0To30DI;
-        public decimal? HygieneUnScheduledTx0To30DI
-        {
-            get { return _HygieneUnScheduledTx0To30DI; }
-            set { _HygieneUnScheduledTx0To30DI = value; }
-        }
-
-        private decimal? _HygieneUnScheduledTx31To60DI;
-        public decimal? HygieneUnScheduledTx31To60DI
-        {
-            get { return _HygieneUnScheduledTx31To60DI; }
-            set { _HygieneUnScheduledTx31To60DI = value; }
-        }
-
-        private decimal? _HygieneUnScheduledTx61To90DI;
-        public decimal? HygieneUnScheduledTx61To90DI
-        {
-            get { return _HygieneUnScheduledTx61To90DI; }
-            set { _HygieneUnScheduledTx61To90DI = value; }
-        }
-
-        private decimal? _HygieneUnScheduledTxPlus90DI;
-        public decimal? HygieneUnScheduledTxPlus90DI
-        {
-            get { return _HygieneUnScheduledTxPlus90DI; }
-            set { _HygieneUnScheduledTxPlus90DI = value; }
-        }
-
-        private decimal? _TreatmentLifetimeValueDi;
-        public decimal? TreatmentLifetimeValueDi
-        {
-            get { return _TreatmentLifetimeValueDi; }
-            set { _TreatmentLifetimeValueDi = value; }
-        }
-
-        private int? _BrokenAppointmentCountDI;
-        public int? BrokenAppointmentCountDI
-        {
-            get { return _BrokenAppointmentCountDI; }
-            set { _BrokenAppointmentCountDI = value; }
-        }
-
-        private int? _CompletedAppointmentCountDI;
-        public int? CompletedAppointmentCountDI
-        {
-            get { return _CompletedAppointmentCountDI; }
-            set { _CompletedAppointmentCountDI = value; }
-        }
-
-        private int? _NumberPatientsReferredDI;
-        public int? NumberPatientsReferredDI
-        {
-            get { return _NumberPatientsReferredDI; }
-            set { _NumberPatientsReferredDI = value; }
-        }
-
-        private DateTime? _AppointmentCandidateSnoozeTimeDI;
-        public DateTime? AppointmentCandidateSnoozeTimeDI
-        {
-            get { return _AppointmentCandidateSnoozeTimeDI; }
-            set { _AppointmentCandidateSnoozeTimeDI = value; }
-        }
-
-        private int? _AppointmentCandidateSnoozeHoursDI;
-        public int? AppointmentCandidateSnoozeHoursDI
-        {
-            get { return _AppointmentCandidateSnoozeHoursDI; }
-            set { _AppointmentCandidateSnoozeHoursDI = value; }
-        }
-
-        private DateTime? _AppointmentCandidateContactedTimeDI;
-        public DateTime? AppointmentCandidateContactedTimeDI
-        {
-            get { return _AppointmentCandidateContactedTimeDI; }
-            set { _AppointmentCandidateContactedTimeDI = value; }
-        }
-
-        private int? _AppointmentCandidateContactedHoursDI;
-        public int? AppointmentCandidateContactedHoursDI
-        {
-            get { return _AppointmentCandidateContactedHoursDI; }
-            set { _AppointmentCandidateContactedHoursDI = value; }
-        }
-
-        private int? _AppointmentPreferredDayOfWeek;
-        public int? AppointmentPreferredDayOfWeek
-        {
-            get { return _AppointmentPreferredDayOfWeek; }
-            set { _AppointmentPreferredDayOfWeek = value; }
-        }
-
-        private int? _AppointmentPreferredHourOfDay;
-        public int? AppointmentPreferredHourOfDay
-        {
-            get { return _AppointmentPreferredHourOfDay; }
-            set { _AppointmentPreferredHourOfDay = value; }
-        }
-
-        private decimal? _Treatment18MonthValueDI;
-        public decimal? Treatment18MonthValueDI
-        {
-            get { return _Treatment18MonthValueDI; }
-            set { _Treatment18MonthValueDI = value; }
-        }
-
-        private int? _PATEXTIDTYPEID;
-        public int? PATEXTIDTYPEID
-        {
-            get { return _PATEXTIDTYPEID; }
-            set { _PATEXTIDTYPEID = value; }
-        }
-
-        private int? _PATEXTIDTYPEDB;
-        public int? PATEXTIDTYPEDB
-        {
-            get { return _PATEXTIDTYPEDB; }
-            set { _PATEXTIDTYPEDB = value; }
-        }
-
-        private bool? _CONFIDENTIALSTATE;
-        public bool? CONFIDENTIALSTATE
-        {
-            get { return _CONFIDENTIALSTATE; }
-            set { _CONFIDENTIALSTATE = value; }
-        }
-
-        private string? _MiddleName;
-        public string? MiddleName
-        {
-            get { return _MiddleName; }
-            set { _MiddleName = value; }
-        }
-
-        private int? _ConfidentialCodeID;
-        public int? ConfidentialCodeID
-        {
-            get { return _ConfidentialCodeID; }
-            set { _ConfidentialCodeID = value; }
-        }
-
-        private int? _ConfidentialCodeDB;
-        public int? ConfidentialCodeDB
-        {
-            get { return _ConfidentialCodeDB; }
-            set { _ConfidentialCodeDB = value; }
-        }
-
-        private bool? _OrganDonorCode;
-        public bool? OrganDonorCode
-        {
-            get { return _OrganDonorCode; }
-            set { _OrganDonorCode = value; }
-        }
-
-        private bool? _VipCode;
-        public bool? VipCode
-        {
-            get { return _VipCode; }
-            set { _VipCode = value; }
-        }
-
-        private bool? _SensitivityFlag;
-        public bool? SensitivityFlag
-        {
-            get { return _SensitivityFlag; }
-            set { _SensitivityFlag = value; }
-        }
-
-        private int? _BirthPlaceCountryID;
-        public int? BirthPlaceCountryID
-        {
-            get { return _BirthPlaceCountryID; }
-            set { _BirthPlaceCountryID = value; }
-        }
-
-        private int? _BirthPlaceCountryDB;
-        public int? BirthPlaceCountryDB
-        {
-            get { return _BirthPlaceCountryDB; }
-            set { _BirthPlaceCountryDB = value; }
-        }
-
-        private bool? _MultipleBirthFlag;
-        public bool? MultipleBirthFlag
-        {
-            get { return _MultipleBirthFlag; }
-            set { _MultipleBirthFlag = value; }
-        }
-
-        private short _MultipleBirthOrder;
-        public short MultipleBirthOrder
-        {
-            get { return _MultipleBirthOrder; }
-            set { _MultipleBirthOrder = value; }
-        }
-
-        private bool? _DNACode;
-        public bool? DNACode
-        {
-            get { return _DNACode; }
-            set { _DNACode = value; }
-        }
-
-        private string? _BloodTypeVerCode;
-        public string? BloodTypeVerCode
-        {
-            get { return _BloodTypeVerCode; }
-            set { _BloodTypeVerCode = value; }
-        }
-
-        private string? _HOMEPHONE;
-        public string? HOMEPHONE
-        {
-            get { return _HOMEPHONE; }
-            set { _HOMEPHONE = value; }
-        }
-
-        private string? _HOMEPHONEEXT;
-        public string? HOMEPHONEEXT
-        {
-            get { return _HOMEPHONEEXT; }
-            set { _HOMEPHONEEXT = value; }
-        }
-
-        private string? _WORKEMAIL;
-        public string? WORKEMAIL
-        {
-            get { return _WORKEMAIL; }
-            set { _WORKEMAIL = value; }
-        }
-
-        private int? _OtherEthnicityId;
-        public int? OtherEthnicityId
-        {
-            get { return _OtherEthnicityId; }
-            set { _OtherEthnicityId = value; }
-        }
-
-        private int? _NextOfKinID;
-        public int? NextOfKinID
-        {
-            get { return _NextOfKinID; }
-            set { _NextOfKinID = value; }
-        }
-
-        private int? _NextOfKinDB;
-        public int? NextOfKinDB
-        {
-            get { return _NextOfKinDB; }
-            set { _NextOfKinDB = value; }
-        }
-
-        private int? _EmergencyID;
-        public int? EmergencyID
-        {
-            get { return _EmergencyID; }
-            set { _EmergencyID = value; }
-        }
-
-        private int? _EmergencyDB;
-        public int? EmergencyDB
-        {
-            get { return _EmergencyDB; }
-            set { _EmergencyDB = value; }
-        }
-
-        private int? _GuardianID;
-        public int? GuardianID
-        {
-            get { return _GuardianID; }
-            set { _GuardianID = value; }
-        }
-
-        private int? _GuardianDB;
-        public int? GuardianDB
-        {
-            get { return _GuardianDB; }
-            set { _GuardianDB = value; }
-        }
-
-        private int? _SponsorID;
-        public int? SponsorID
-        {
-            get { return _SponsorID; }
-            set { _SponsorID = value; }
-        }
-
-        private int? _SponsorDB;
-        public int? SponsorDB
-        {
-            get { return _SponsorDB; }
-            set { _SponsorDB = value; }
-        }
-
-        private int? _CreationReasonID;
-        public int? CreationReasonID
-        {
-            get { return _CreationReasonID; }
-            set { _CreationReasonID = value; }
-        }
-
-        private bool? _DoDUpdateAuth;
-        public bool? DoDUpdateAuth
-        {
-            get { return _DoDUpdateAuth; }
-            set { _DoDUpdateAuth = value; }
-        }
-
-        private string? _DoDUpdateAuthText;
-        public string? DoDUpdateAuthText
-        {
-            get { return _DoDUpdateAuthText; }
-            set { _DoDUpdateAuthText = value; }
-        }
-
-        private short _PrInsSubRel;
-        public short PrInsSubRel
-        {
-            get { return _PrInsSubRel; }
-            set { _PrInsSubRel = value; }
-        }
-
-        private short _ScInsSubRel;
-        public short ScInsSubRel
-        {
-            get { return _ScInsSubRel; }
-            set { _ScInsSubRel = value; }
-        }
-
-        private short _TertInsSubRel;
-        public short TertInsSubRel
-        {
-            get { return _TertInsSubRel; }
-            set { _TertInsSubRel = value; }
-        }
-
-        private short _QuatInsSubRel;
-        public short QuatInsSubRel
-        {
-            get { return _QuatInsSubRel; }
-            set { _QuatInsSubRel = value; }
-        }
-
-        private short _PrMedInsSubRel;
-        public short PrMedInsSubRel
-        {
-            get { return _PrMedInsSubRel; }
-            set { _PrMedInsSubRel = value; }
-        }
-
-        private short _ScMedInsSubRel;
-        public short ScMedInsSubRel
-        {
-            get { return _ScMedInsSubRel; }
-            set { _ScMedInsSubRel = value; }
-        }
-
-        private int? _InmateID;
-        public int? InmateID
-        {
-            get { return _InmateID; }
-            set { _InmateID = value; }
-        }
-
-        private int? _InmateDB;
-        public int? InmateDB
-        {
-            get { return _InmateDB; }
-            set { _InmateDB = value; }
-        }
-
-        private string? _FamExtID;
-        public string? FamExtID
-        {
-            get { return _FamExtID; }
-            set { _FamExtID = value; }
-        }
-
-        private int? _OriginalPatId;
-        public int? OriginalPatId
-        {
-            get { return _OriginalPatId; }
-            set { _OriginalPatId = value; }
-        }
-
-        private int? _OriginalPatDb;
-        public int? OriginalPatDb
-        {
-            get { return _OriginalPatDb; }
-            set { _OriginalPatDb = value; }
-        }
-
-        private decimal? _Hygiene18MonthPerVisitAverageDi;
-        public decimal? Hygiene18MonthPerVisitAverageDi
-        {
-            get { return _Hygiene18MonthPerVisitAverageDi; }
-            set { _Hygiene18MonthPerVisitAverageDi = value; }
-        }
-
-        private bool? _OnPaymentPlanDi;
-        public bool? OnPaymentPlanDi
-        {
-            get { return _OnPaymentPlanDi; }
-            set { _OnPaymentPlanDi = value; }
-        }
-
-        private DateTime? _PaymentCampaignDoNotSendDateDI;
-        public DateTime? PaymentCampaignDoNotSendDateDI
-        {
-            get { return _PaymentCampaignDoNotSendDateDI; }
-            set { _PaymentCampaignDoNotSendDateDI = value; }
-        }
-
-        private DateTime? _PaymentCampaignSnoozeUntilDI;
-        public DateTime? PaymentCampaignSnoozeUntilDI
-        {
-            get { return _PaymentCampaignSnoozeUntilDI; }
-            set { _PaymentCampaignSnoozeUntilDI = value; }
-        }
-
-        private string? _PaymentCampaignSnoozeReasonDI;
-        public string? PaymentCampaignSnoozeReasonDI
-        {
-            get { return _PaymentCampaignSnoozeReasonDI; }
-            set { _PaymentCampaignSnoozeReasonDI = value; }
-        }
-
-        private DateTime? _LastPatientPaymentDateDI;
-        public DateTime? LastPatientPaymentDateDI
-        {
-            get { return _LastPatientPaymentDateDI; }
-            set { _LastPatientPaymentDateDI = value; }
-        }
-
-        private DateTime? _LastInsurancePaymentDateDI;
-        public DateTime? LastInsurancePaymentDateDI
-        {
-            get { return _LastInsurancePaymentDateDI; }
-            set { _LastInsurancePaymentDateDI = value; }
-        }
-
-        private DateTime? _PrimaryInsuranceLastDateClaimSentDI;
-        public DateTime? PrimaryInsuranceLastDateClaimSentDI
-        {
-            get { return _PrimaryInsuranceLastDateClaimSentDI; }
-            set { _PrimaryInsuranceLastDateClaimSentDI = value; }
-        }
-
-        private DateTime? _SecondaryInsuranceLastDateClaimSentDI;
-        public DateTime? SecondaryInsuranceLastDateClaimSentDI
-        {
-            get { return _SecondaryInsuranceLastDateClaimSentDI; }
-            set { _SecondaryInsuranceLastDateClaimSentDI = value; }
-        }
-
-        private int? _PrimaryInsuranceNumOpenClaimsDI;
-        public int? PrimaryInsuranceNumOpenClaimsDI
-        {
-            get { return _PrimaryInsuranceNumOpenClaimsDI; }
-            set { _PrimaryInsuranceNumOpenClaimsDI = value; }
-        }
-
-        private int? _SecondaryInsuranceNumOpenClaimsDI;
-        public int? SecondaryInsuranceNumOpenClaimsDI
-        {
-            get { return _SecondaryInsuranceNumOpenClaimsDI; }
-            set { _SecondaryInsuranceNumOpenClaimsDI = value; }
-        }
-
-        private string? _PrimaryProviderIdDi;
-        public string? PrimaryProviderIdDi
-        {
-            get { return _PrimaryProviderIdDi; }
-            set { _PrimaryProviderIdDi = value; }
-        }
-
-        private string? _SecondaryProviderIdDi;
-        public string? SecondaryProviderIdDi
-        {
-            get { return _SecondaryProviderIdDi; }
-            set { _SecondaryProviderIdDi = value; }
+        public int PATID { get; set; }
+        public int PATDB { get; set; }
+        public int? FAMILYID { get; set; }
+        public int? GUARID { get; set; }
+        public int? GUARDB { get; set; }
+        public int? PRINSUREDID { get; set; }
+        public int? PRINSUREDDB { get; set; }
+        public int? SCINSUREDID { get; set; }
+        public int? SCINSUREDDB { get; set; }
+        public int? ADDRESSID { get; set; }
+        public int? ADDRESSDB { get; set; }
+        public int? EMPID { get; set; }
+        public int? EMPDB { get; set; }
+        public int? CLAIMINFID { get; set; }
+        public int? CLAIMINFDB { get; set; }
+        public int? PRPROVID { get; set; }
+        public int? PRPROVDB { get; set; }
+        public int? SCPROVID { get; set; }
+        public int? SCPROVDB { get; set; }
+        public int? REFTOID { get; set; }
+        public int? REFTODB { get; set; }
+        public int? REFBYDOCID { get; set; }
+        public int? REFBYDOCDB { get; set; }
+        public int? REFBYPATID { get; set; }
+        public int? REFBYPATDB { get; set; }
+        public int? PRMEDINSID { get; set; }
+        public int? PRMEDINSDB { get; set; }
+        public int? SCMEDINSID { get; set; }
+        public int? SCMEDINSDB { get; set; }
+        public string? LASTNAME { get; set; }
+        public string? FIRSTNAME { get; set; }
+        public string? MI { get; set; }
+        public string? PREFNAME { get; set; }
+        public string? SALUTATION { get; set; }
+        public string? WKEXT { get; set; }
+        public string? BESTTIME { get; set; }
+        public string? CHART { get; set; }
+        public int? CHARTDB { get; set; }
+        public string? SS { get; set; }
+        public int? SSNDB { get; set; }
+        public short GUARFLG { get; set; }
+        public short INSPFLG { get; set; }
+        public short HEADHFLG { get; set; }
+        public short GENDER { get; set; }
+        public short STATUS { get; set; }
+        public short FAMPOS { get; set; }
+        public short PREMED { get; set; }
+        public DateTime? BIRTHDATE { get; set; }
+        public DateTime? FIRSTVISITDATE { get; set; }
+        public DateTime? LASTVISITDATE { get; set; }
+        public DateTime? REFTODATE { get; set; }
+        public DateTime? CONSENTDATE { get; set; }
+        public short PRINSREL { get; set; }
+        public short SCINSREL { get; set; }
+        public int? PRBENEFITS { get; set; }
+        public int? SCBENEFITS { get; set; }
+        public string? WKPHONE { get; set; }
+        public int? FEESCHFLAG { get; set; }
+        public int? MISSEDAPPT { get; set; }
+        public DateTime? LASTMISSEDAPPT { get; set; }
+        public string? TITLE { get; set; }
+        public string? ID2 { get; set; }
+        public short TITLEFLG { get; set; }
+        public int? EZDWPATID { get; set; }
+        public string? EMAILADDRESS { get; set; }
+        public string? DRIVERSLICENSE { get; set; }
+        public string? FAX { get; set; }
+        public string? PAGER { get; set; }
+        public string? OTHERPHONE { get; set; }
+        public int? PRDED { get; set; }
+        public int? PRDED2 { get; set; }
+        public int? PRDED3 { get; set; }
+        public int? SCDED { get; set; }
+        public int? SCDED2 { get; set; }
+        public int? SCDED3 { get; set; }
+        public int? PRDEDUCTLT { get; set; }
+        public int? PRDEDUCTLT2 { get; set; }
+        public int? PRDEDUCTLT3 { get; set; }
+        public int? SCDEDUCTLT { get; set; }
+        public int? SCDEDUCTLT2 { get; set; }
+        public int? SCDEDUCTLT3 { get; set; }
+        public string? MEDALERT { get; set; }
+        public int? FEESCHEDID { get; set; }
+        public int? FEESCHEDDB { get; set; }
+        public short PRMEDINSREL { get; set; }
+        public short SCMEDINSREL { get; set; }
+        public short PrInsCDADepCode { get; set; }
+        public short ScInsCDADepCode { get; set; }
+        public short ConsultFlag { get; set; }
+        public short TOAFlag { get; set; }
+        public int? DefaultClinic { get; set; }
+        public int? OperatorID { get; set; }
+        public int? OperatorDB { get; set; }
+        public string? UPLASTNAME { get; set; }
+        public string? UPFIRSTNAME { get; set; }
+        public string? UPCHART { get; set; }
+        public short ACTIVE { get; set; }
+        public short PATALERT { get; set; }
+        public string? Suffix { get; set; }
+        public string? CountyName { get; set; }
+        public string? EmpStatus { get; set; }
+        public short Race { get; set; }
+        public int? FamIncome { get; set; }
+        public string? ExternalStatus { get; set; }
+        public string? PatExtID { get; set; }
+        public string? GuarantorExtID { get; set; }
+        public string? EntrySystem { get; set; }
+        public DateTime? EntryDateTime { get; set; }
+        public string? LastUpdateMethod { get; set; }
+        public string? LastUpdateSystem { get; set; }
+        public string? VisitNumber { get; set; }
+        public int? PATIMAGEID { get; set; }
+        public int? INITPROVID { get; set; }
+        public int? INITPROVDB { get; set; }
+        public short RELIGION { get; set; }
+        public int? RVUID { get; set; }
+        public int? RVUDB { get; set; }
+        public DateTime? MedHistoryViewDate { get; set; }
+        public DateTime? DDB_LAST_MOD { get; set; }
+        public string? PatClass { get; set; }
+        public string? PatFacility { get; set; }
+        public string? PatAlias_LastName { get; set; }
+        public string? PatAlias_FirstName { get; set; }
+        public string? PatAlias_MiddleName { get; set; }
+        public string? PatAlias_Suffix { get; set; }
+        public string? PatAlias_Prefix { get; set; }
+        public string? MotherMaiden_LName { get; set; }
+        public string? MotherMaiden_FName { get; set; }
+        public string? MotherMaiden_MName { get; set; }
+        public string? MotherMaiden_Suffix { get; set; }
+        public string? MotherMaiden_Prefix { get; set; }
+        public DateTime? PatientDeathDate { get; set; }
+        public short Language { get; set; }
+        public short PovertyLevel { get; set; }
+        public short WorkerStatus { get; set; }
+        public short HomelessStatus { get; set; }
+        public short PrivacyFlags { get; set; }
+        public short PATCOPIED { get; set; }
+        public string? tempchart { get; set; }
+        public short Veteran { get; set; }
+        public string? GUIDID { get; set; }
+        public int? TertDentInsuredID { get; set; }
+        public int? TertDentInsuredDB { get; set; }
+        public int? QuatDentInsuredID { get; set; }
+        public int? QuatDentInsuredDB { get; set; }
+        public short TertInsRel { get; set; }
+        public short QuatInsRel { get; set; }
+        public short TertInsCDADepCode { get; set; }
+        public short QuatInsCDADepCode { get; set; }
+        public string? OVERRIDEUSERID { get; set; }
+        public string? PermDescript { get; set; }
+        public int? EthnicityID { get; set; }
+        public int? UDPatCatID { get; set; }
+        public string? ExtPatIDType { get; set; }
+        public string? ExtGuarIDType { get; set; }
+        public string? PatExtID2 { get; set; }
+        public string? ExtPatID2Type { get; set; }
+        public string? PatType { get; set; }
+        public string? AccountStatus { get; set; }
+        public short FinancialClassID { get; set; }
+        public string? PatAccountNumber { get; set; }
+        public int? DeclinedEmail { get; set; }
+        public short CommunicationPref { get; set; }
+        public int? SmokingStatusID { get; set; }
+        public int? SmokingStatusDB { get; set; }
+        public short RxAutoRefill { get; set; }
+        public short OtherRace { get; set; }
+        public short HousingStatus { get; set; }
+        public int? FamSize { get; set; }
+        public int? SexualOrientation { get; set; }
+        public int? GenderIdentity { get; set; }
+        public int? HohIncome { get; set; }
+        public int? IncomeRecurr { get; set; }
+        public int PracticeIdInt { get; set; }
+        public DateTime? LastUpdateTimestamp { get; set; }
+        public bool? IsDeletedFromSource { get; set; }
+        public DateTime? MinProcDate_di { get; set; }
+        public DateTime? MaxProcDate_di { get; set; }
+        public DateTime? LastPerioProc_di { get; set; }
+        public DateTime? LastHygieneProc_di { get; set; }
+        public decimal? PatientValue_0to6 { get; set; }
+        public decimal? PatientValue_7to12 { get; set; }
+        public decimal? PatientValue_13to18 { get; set; }
+        public decimal? PatientValue_19to24 { get; set; }
+        public decimal? PatientValue_25to30 { get; set; }
+        public decimal? PatientValue_31to36 { get; set; }
+        public decimal? UnScheduledTX { get; set; }
+        public decimal? TotalTX { get; set; }
+        public DateTime? NextHygieneAppt { get; set; }
+        public DateTime? NextNonHygieneAppt { get; set; }
+        public DateTime? StatusModifiedDate { get; set; }
+        public int? HygieneInterval_di { get; set; }
+        public string? PrimaryInsurance_DI { get; set; }
+        public string? SecondaryInsurance_DI { get; set; }
+        public decimal? RemainingInsurance_DI { get; set; }
+        public DateTime? FirstPerioProc_DI { get; set; }
+        public DateTime? NextRestorativeAppointment_DI { get; set; }
+        public DateTime? NextMiscAppointment_DI { get; set; }
+        public decimal? RemainingPrimaryInsurance_DI { get; set; }
+        public decimal? RemainingSecondaryInsurance_DI { get; set; }
+        public decimal? Aging0To30_di { get; set; }
+        public decimal? Aging31To60_di { get; set; }
+        public decimal? Aging61To90_di { get; set; }
+        public decimal? AgingPlus90_di { get; set; }
+        public decimal? TotalAging_di { get; set; }
+        public decimal? EstInsuranceAging_di { get; set; }
+        public decimal? EstPatientAging_di { get; set; }
+        public string? PrimaryProvider_DI { get; set; }
+        public string? SecondaryProvider_DI { get; set; }
+        public string? ReferralSource_DI { get; set; }
+        public bool? NextHygieneApptIsOnQuickFill_DI { get; set; }
+        public bool? NextNonHygieneApptIsOnQuickFill_DI { get; set; }
+        public bool? NextRestorativeApptIsOnQuickFill_DI { get; set; }
+        public bool? NextMiscApptIsOnQuickFill_DI { get; set; }
+        public int? FamilyMembersNotScheduled_DI { get; set; }
+        public decimal? HygieneUnScheduledTX_DI { get; set; }
+        public decimal? RestorativeUnScheduledTX_DI { get; set; }
+        public decimal? AppointmentCandidateWeightingRestorative_DI { get; set; }
+        public decimal? AppointmentCandidateWeightingHygiene_DI { get; set; }
+        public DateTime? NextHygieneApptEndTime_DI { get; set; }
+        public DateTime? NextNonHygieneApptEndTime_DI { get; set; }
+        public DateTime? NextRestorativeAppointmentEndTime_DI { get; set; }
+        public DateTime? NextMiscAppointmentEndTime_DI { get; set; }
+        public bool? PatientIsOnUnscheduledQuickFill { get; set; }
+        public bool? FupHygieneRecareChanged_di { get; set; }
+        public bool? FupARChanged_di { get; set; }
+        public DateTime? LastMajorFilmProc_di { get; set; }
+        public DateTime? LastBiteWingProc_di { get; set; }
+        public DateTime? LastPanoProc_di { get; set; }
+        public DateTime? LastFmxProc_di { get; set; }
+        public decimal? UnScheduledTx0To30_DI { get; set; }
+        public decimal? UnScheduledTx31To60_DI { get; set; }
+        public decimal? UnScheduledTx61To90_DI { get; set; }
+        public decimal? UnScheduledTxPlus90_DI { get; set; }
+        public decimal? RestorativeUnScheduledTx0To30_DI { get; set; }
+        public decimal? RestorativeUnScheduledTx31To60_DI { get; set; }
+        public decimal? RestorativeUnScheduledTx61To90_DI { get; set; }
+        public decimal? RestorativeUnScheduledTxPlus90_DI { get; set; }
+        public decimal? HygieneUnScheduledTx0To30_DI { get; set; }
+        public decimal? HygieneUnScheduledTx31To60_DI { get; set; }
+        public decimal? HygieneUnScheduledTx61To90_DI { get; set; }
+        public decimal? HygieneUnScheduledTxPlus90_DI { get; set; }
+        public decimal? TreatmentLifetimeValue_di { get; set; }
+        public int? BrokenAppointmentCount_DI { get; set; }
+        public int? CompletedAppointmentCount_DI { get; set; }
+        public int? NumberPatientsReferred_DI { get; set; }
+        public DateTime? AppointmentCandidateSnoozeTime_DI { get; set; }
+        public int? AppointmentCandidateSnoozeHours_DI { get; set; }
+        public DateTime? AppointmentCandidateContactedTime_DI { get; set; }
+        public int? AppointmentCandidateContactedHours_DI { get; set; }
+        public int? AppointmentPreferredDayOfWeek { get; set; }
+        public int? AppointmentPreferredHourOfDay { get; set; }
+        public decimal? Treatment18MonthValue_DI { get; set; }
+        public int? PATEXTIDTYPEID { get; set; }
+        public int? PATEXTIDTYPEDB { get; set; }
+        public bool? CONFIDENTIAL_STATE { get; set; }
+        public string? MiddleName { get; set; }
+        public int? ConfidentialCodeID { get; set; }
+        public int? ConfidentialCodeDB { get; set; }
+        public bool? OrganDonorCode { get; set; }
+        public bool? VipCode { get; set; }
+        public bool? SensitivityFlag { get; set; }
+        public int? BirthPlaceCountryID { get; set; }
+        public int? BirthPlaceCountryDB { get; set; }
+        public bool? MultipleBirthFlag { get; set; }
+        public short MultipleBirthOrder { get; set; }
+        public bool? DNACode { get; set; }
+        public string? BloodTypeVerCode { get; set; }
+        public string? HOMEPHONE { get; set; }
+        public string? HOMEPHONEEXT { get; set; }
+        public string? WORKEMAIL { get; set; }
+        public int? OtherEthnicityId { get; set; }
+        public int? NextOfKinID { get; set; }
+        public int? NextOfKinDB { get; set; }
+        public int? EmergencyID { get; set; }
+        public int? EmergencyDB { get; set; }
+        public int? GuardianID { get; set; }
+        public int? GuardianDB { get; set; }
+        public int? SponsorID { get; set; }
+        public int? SponsorDB { get; set; }
+        public int? CreationReasonID { get; set; }
+        public bool? DoDUpdateAuth { get; set; }
+        public string? DoDUpdateAuthText { get; set; }
+        public short PrInsSubRel { get; set; }
+        public short ScInsSubRel { get; set; }
+        public short TertInsSubRel { get; set; }
+        public short QuatInsSubRel { get; set; }
+        public short PrMedInsSubRel { get; set; }
+        public short ScMedInsSubRel { get; set; }
+        public int? InmateID { get; set; }
+        public int? InmateDB { get; set; }
+        public string? FamExtID { get; set; }
+        public int? OriginalPatId { get; set; }
+        public int? OriginalPatDb { get; set; }
+        public decimal? Hygiene18MonthPerVisitAverage_di { get; set; }
+        public bool? OnPaymentPlan_di { get; set; }
+        public DateTime? PaymentCampaignDoNotSendDate_DI { get; set; }
+        public DateTime? PaymentCampaignSnoozeUntil_DI { get; set; }
+        public string? PaymentCampaignSnoozeReason_DI { get; set; }
+        public DateTime? LastPatientPaymentDate_DI { get; set; }
+        public DateTime? LastInsurancePaymentDate_DI { get; set; }
+        public DateTime? PrimaryInsuranceLastDateClaimSent_DI { get; set; }
+        public DateTime? SecondaryInsuranceLastDateClaimSent_DI { get; set; }
+        public int? PrimaryInsuranceNumOpenClaims_DI { get; set; }
+        public int? SecondaryInsuranceNumOpenClaims_DI { get; set; }
+        public string? PrimaryProviderId_di { get; set; }
+        public string? SecondaryProviderId_di { get; set; }
+
+
+        public DDB_PAT_BASE() { }
+                
+        public DDB_PAT_BASE(int PATID_, int PATDB_, int? FAMILYID_, int? GUARID_, int? GUARDB_, int? PRINSUREDID_, int? PRINSUREDDB_, int? SCINSUREDID_, int? SCINSUREDDB_, int? ADDRESSID_, int? ADDRESSDB_, int? EMPID_, int? EMPDB_, int? CLAIMINFID_, int? CLAIMINFDB_, int? PRPROVID_, int? PRPROVDB_, int? SCPROVID_, int? SCPROVDB_, int? REFTOID_, int? REFTODB_, int? REFBYDOCID_, int? REFBYDOCDB_, int? REFBYPATID_, int? REFBYPATDB_, int? PRMEDINSID_, int? PRMEDINSDB_, int? SCMEDINSID_, int? SCMEDINSDB_, string? LASTNAME_, string? FIRSTNAME_, string? MI_, string? PREFNAME_, string? SALUTATION_, string? WKEXT_, string? BESTTIME_, string? CHART_, int? CHARTDB_, string? SS_, int? SSNDB_, short GUARFLG_, short INSPFLG_, short HEADHFLG_, short GENDER_, short STATUS_, short FAMPOS_, short PREMED_, DateTime? BIRTHDATE_, DateTime? FIRSTVISITDATE_, DateTime? LASTVISITDATE_, DateTime? REFTODATE_, DateTime? CONSENTDATE_, short PRINSREL_, short SCINSREL_, int? PRBENEFITS_, int? SCBENEFITS_, string? WKPHONE_, int? FEESCHFLAG_, int? MISSEDAPPT_, DateTime? LASTMISSEDAPPT_, string? TITLE_, string? ID2_, short TITLEFLG_, int? EZDWPATID_, string? EMAILADDRESS_, string? DRIVERSLICENSE_, string? FAX_, string? PAGER_, string? OTHERPHONE_, int? PRDED_, int? PRDED2_, int? PRDED3_, int? SCDED_, int? SCDED2_, int? SCDED3_, int? PRDEDUCTLT_, int? PRDEDUCTLT2_, int? PRDEDUCTLT3_, int? SCDEDUCTLT_, int? SCDEDUCTLT2_, int? SCDEDUCTLT3_, string? MEDALERT_, int? FEESCHEDID_, int? FEESCHEDDB_, short PRMEDINSREL_, short SCMEDINSREL_, short PrInsCDADepCode_, short ScInsCDADepCode_, short ConsultFlag_, short TOAFlag_, int? DefaultClinic_, int? OperatorID_, int? OperatorDB_, string? UPLASTNAME_, string? UPFIRSTNAME_, string? UPCHART_, short ACTIVE_, short PATALERT_, string? Suffix_, string? CountyName_, string? EmpStatus_, short Race_, int? FamIncome_, string? ExternalStatus_, string? PatExtID_, string? GuarantorExtID_, string? EntrySystem_, DateTime? EntryDateTime_, string? LastUpdateMethod_, string? LastUpdateSystem_, string? VisitNumber_, int? PATIMAGEID_, int? INITPROVID_, int? INITPROVDB_, short RELIGION_, int? RVUID_, int? RVUDB_, DateTime? MedHistoryViewDate_, DateTime? DDB_LAST_MOD_, string? PatClass_, string? PatFacility_, string? PatAlias_LastName_, string? PatAlias_FirstName_, string? PatAlias_MiddleName_, string? PatAlias_Suffix_, string? PatAlias_Prefix_, string? MotherMaiden_LName_, string? MotherMaiden_FName_, string? MotherMaiden_MName_, string? MotherMaiden_Suffix_, string? MotherMaiden_Prefix_, DateTime? PatientDeathDate_, short Language_, short PovertyLevel_, short WorkerStatus_, short HomelessStatus_, short PrivacyFlags_, short PATCOPIED_, string? tempchart_, short Veteran_, string? GUIDID_, int? TertDentInsuredID_, int? TertDentInsuredDB_, int? QuatDentInsuredID_, int? QuatDentInsuredDB_, short TertInsRel_, short QuatInsRel_, short TertInsCDADepCode_, short QuatInsCDADepCode_, string? OVERRIDEUSERID_, string? PermDescript_, int? EthnicityID_, int? UDPatCatID_, string? ExtPatIDType_, string? ExtGuarIDType_, string? PatExtID2_, string? ExtPatID2Type_, string? PatType_, string? AccountStatus_, short FinancialClassID_, string? PatAccountNumber_, int? DeclinedEmail_, short CommunicationPref_, int? SmokingStatusID_, int? SmokingStatusDB_, short RxAutoRefill_, short OtherRace_, short HousingStatus_, int? FamSize_, int? SexualOrientation_, int? GenderIdentity_, int? HohIncome_, int? IncomeRecurr_, int PracticeIdInt_, DateTime? LastUpdateTimestamp_, bool? IsDeletedFromSource_, DateTime? MinProcDate_di_, DateTime? MaxProcDate_di_, DateTime? LastPerioProc_di_, DateTime? LastHygieneProc_di_, decimal? PatientValue_0to6_, decimal? PatientValue_7to12_, decimal? PatientValue_13to18_, decimal? PatientValue_19to24_, decimal? PatientValue_25to30_, decimal? PatientValue_31to36_, decimal? UnScheduledTX_, decimal? TotalTX_, DateTime? NextHygieneAppt_, DateTime? NextNonHygieneAppt_, DateTime? StatusModifiedDate_, int? HygieneInterval_di_, string? PrimaryInsurance_DI_, string? SecondaryInsurance_DI_, decimal? RemainingInsurance_DI_, DateTime? FirstPerioProc_DI_, DateTime? NextRestorativeAppointment_DI_, DateTime? NextMiscAppointment_DI_, decimal? RemainingPrimaryInsurance_DI_, decimal? RemainingSecondaryInsurance_DI_, decimal? Aging0To30_di_, decimal? Aging31To60_di_, decimal? Aging61To90_di_, decimal? AgingPlus90_di_, decimal? TotalAging_di_, decimal? EstInsuranceAging_di_, decimal? EstPatientAging_di_, string? PrimaryProvider_DI_, string? SecondaryProvider_DI_, string? ReferralSource_DI_, bool? NextHygieneApptIsOnQuickFill_DI_, bool? NextNonHygieneApptIsOnQuickFill_DI_, bool? NextRestorativeApptIsOnQuickFill_DI_, bool? NextMiscApptIsOnQuickFill_DI_, int? FamilyMembersNotScheduled_DI_, decimal? HygieneUnScheduledTX_DI_, decimal? RestorativeUnScheduledTX_DI_, decimal? AppointmentCandidateWeightingRestorative_DI_, decimal? AppointmentCandidateWeightingHygiene_DI_, DateTime? NextHygieneApptEndTime_DI_, DateTime? NextNonHygieneApptEndTime_DI_, DateTime? NextRestorativeAppointmentEndTime_DI_, DateTime? NextMiscAppointmentEndTime_DI_, bool? PatientIsOnUnscheduledQuickFill_, bool? FupHygieneRecareChanged_di_, bool? FupARChanged_di_, DateTime? LastMajorFilmProc_di_, DateTime? LastBiteWingProc_di_, DateTime? LastPanoProc_di_, DateTime? LastFmxProc_di_, decimal? UnScheduledTx0To30_DI_, decimal? UnScheduledTx31To60_DI_, decimal? UnScheduledTx61To90_DI_, decimal? UnScheduledTxPlus90_DI_, decimal? RestorativeUnScheduledTx0To30_DI_, decimal? RestorativeUnScheduledTx31To60_DI_, decimal? RestorativeUnScheduledTx61To90_DI_, decimal? RestorativeUnScheduledTxPlus90_DI_, decimal? HygieneUnScheduledTx0To30_DI_, decimal? HygieneUnScheduledTx31To60_DI_, decimal? HygieneUnScheduledTx61To90_DI_, decimal? HygieneUnScheduledTxPlus90_DI_, decimal? TreatmentLifetimeValue_di_, int? BrokenAppointmentCount_DI_, int? CompletedAppointmentCount_DI_, int? NumberPatientsReferred_DI_, DateTime? AppointmentCandidateSnoozeTime_DI_, int? AppointmentCandidateSnoozeHours_DI_, DateTime? AppointmentCandidateContactedTime_DI_, int? AppointmentCandidateContactedHours_DI_, int? AppointmentPreferredDayOfWeek_, int? AppointmentPreferredHourOfDay_, decimal? Treatment18MonthValue_DI_, int? PATEXTIDTYPEID_, int? PATEXTIDTYPEDB_, bool? CONFIDENTIAL_STATE_, string? MiddleName_, int? ConfidentialCodeID_, int? ConfidentialCodeDB_, bool? OrganDonorCode_, bool? VipCode_, bool? SensitivityFlag_, int? BirthPlaceCountryID_, int? BirthPlaceCountryDB_, bool? MultipleBirthFlag_, short MultipleBirthOrder_, bool? DNACode_, string? BloodTypeVerCode_, string? HOMEPHONE_, string? HOMEPHONEEXT_, string? WORKEMAIL_, int? OtherEthnicityId_, int? NextOfKinID_, int? NextOfKinDB_, int? EmergencyID_, int? EmergencyDB_, int? GuardianID_, int? GuardianDB_, int? SponsorID_, int? SponsorDB_, int? CreationReasonID_, bool? DoDUpdateAuth_, string? DoDUpdateAuthText_, short PrInsSubRel_, short ScInsSubRel_, short TertInsSubRel_, short QuatInsSubRel_, short PrMedInsSubRel_, short ScMedInsSubRel_, int? InmateID_, int? InmateDB_, string? FamExtID_, int? OriginalPatId_, int? OriginalPatDb_, decimal? Hygiene18MonthPerVisitAverage_di_, bool? OnPaymentPlan_di_, DateTime? PaymentCampaignDoNotSendDate_DI_, DateTime? PaymentCampaignSnoozeUntil_DI_, string? PaymentCampaignSnoozeReason_DI_, DateTime? LastPatientPaymentDate_DI_, DateTime? LastInsurancePaymentDate_DI_, DateTime? PrimaryInsuranceLastDateClaimSent_DI_, DateTime? SecondaryInsuranceLastDateClaimSent_DI_, int? PrimaryInsuranceNumOpenClaims_DI_, int? SecondaryInsuranceNumOpenClaims_DI_, string? PrimaryProviderId_di_, string? SecondaryProviderId_di_)
+        {
+            this.PATID = PATID_;
+            this.PATDB = PATDB_;
+            this.FAMILYID = FAMILYID_;
+            this.GUARID = GUARID_;
+            this.GUARDB = GUARDB_;
+            this.PRINSUREDID = PRINSUREDID_;
+            this.PRINSUREDDB = PRINSUREDDB_;
+            this.SCINSUREDID = SCINSUREDID_;
+            this.SCINSUREDDB = SCINSUREDDB_;
+            this.ADDRESSID = ADDRESSID_;
+            this.ADDRESSDB = ADDRESSDB_;
+            this.EMPID = EMPID_;
+            this.EMPDB = EMPDB_;
+            this.CLAIMINFID = CLAIMINFID_;
+            this.CLAIMINFDB = CLAIMINFDB_;
+            this.PRPROVID = PRPROVID_;
+            this.PRPROVDB = PRPROVDB_;
+            this.SCPROVID = SCPROVID_;
+            this.SCPROVDB = SCPROVDB_;
+            this.REFTOID = REFTOID_;
+            this.REFTODB = REFTODB_;
+            this.REFBYDOCID = REFBYDOCID_;
+            this.REFBYDOCDB = REFBYDOCDB_;
+            this.REFBYPATID = REFBYPATID_;
+            this.REFBYPATDB = REFBYPATDB_;
+            this.PRMEDINSID = PRMEDINSID_;
+            this.PRMEDINSDB = PRMEDINSDB_;
+            this.SCMEDINSID = SCMEDINSID_;
+            this.SCMEDINSDB = SCMEDINSDB_;
+            this.LASTNAME = LASTNAME_;
+            this.FIRSTNAME = FIRSTNAME_;
+            this.MI = MI_;
+            this.PREFNAME = PREFNAME_;
+            this.SALUTATION = SALUTATION_;
+            this.WKEXT = WKEXT_;
+            this.BESTTIME = BESTTIME_;
+            this.CHART = CHART_;
+            this.CHARTDB = CHARTDB_;
+            this.SS = SS_;
+            this.SSNDB = SSNDB_;
+            this.GUARFLG = GUARFLG_;
+            this.INSPFLG = INSPFLG_;
+            this.HEADHFLG = HEADHFLG_;
+            this.GENDER = GENDER_;
+            this.STATUS = STATUS_;
+            this.FAMPOS = FAMPOS_;
+            this.PREMED = PREMED_;
+            this.BIRTHDATE = BIRTHDATE_;
+            this.FIRSTVISITDATE = FIRSTVISITDATE_;
+            this.LASTVISITDATE = LASTVISITDATE_;
+            this.REFTODATE = REFTODATE_;
+            this.CONSENTDATE = CONSENTDATE_;
+            this.PRINSREL = PRINSREL_;
+            this.SCINSREL = SCINSREL_;
+            this.PRBENEFITS = PRBENEFITS_;
+            this.SCBENEFITS = SCBENEFITS_;
+            this.WKPHONE = WKPHONE_;
+            this.FEESCHFLAG = FEESCHFLAG_;
+            this.MISSEDAPPT = MISSEDAPPT_;
+            this.LASTMISSEDAPPT = LASTMISSEDAPPT_;
+            this.TITLE = TITLE_;
+            this.ID2 = ID2_;
+            this.TITLEFLG = TITLEFLG_;
+            this.EZDWPATID = EZDWPATID_;
+            this.EMAILADDRESS = EMAILADDRESS_;
+            this.DRIVERSLICENSE = DRIVERSLICENSE_;
+            this.FAX = FAX_;
+            this.PAGER = PAGER_;
+            this.OTHERPHONE = OTHERPHONE_;
+            this.PRDED = PRDED_;
+            this.PRDED2 = PRDED2_;
+            this.PRDED3 = PRDED3_;
+            this.SCDED = SCDED_;
+            this.SCDED2 = SCDED2_;
+            this.SCDED3 = SCDED3_;
+            this.PRDEDUCTLT = PRDEDUCTLT_;
+            this.PRDEDUCTLT2 = PRDEDUCTLT2_;
+            this.PRDEDUCTLT3 = PRDEDUCTLT3_;
+            this.SCDEDUCTLT = SCDEDUCTLT_;
+            this.SCDEDUCTLT2 = SCDEDUCTLT2_;
+            this.SCDEDUCTLT3 = SCDEDUCTLT3_;
+            this.MEDALERT = MEDALERT_;
+            this.FEESCHEDID = FEESCHEDID_;
+            this.FEESCHEDDB = FEESCHEDDB_;
+            this.PRMEDINSREL = PRMEDINSREL_;
+            this.SCMEDINSREL = SCMEDINSREL_;
+            this.PrInsCDADepCode = PrInsCDADepCode_;
+            this.ScInsCDADepCode = ScInsCDADepCode_;
+            this.ConsultFlag = ConsultFlag_;
+            this.TOAFlag = TOAFlag_;
+            this.DefaultClinic = DefaultClinic_;
+            this.OperatorID = OperatorID_;
+            this.OperatorDB = OperatorDB_;
+            this.UPLASTNAME = UPLASTNAME_;
+            this.UPFIRSTNAME = UPFIRSTNAME_;
+            this.UPCHART = UPCHART_;
+            this.ACTIVE = ACTIVE_;
+            this.PATALERT = PATALERT_;
+            this.Suffix = Suffix_;
+            this.CountyName = CountyName_;
+            this.EmpStatus = EmpStatus_;
+            this.Race = Race_;
+            this.FamIncome = FamIncome_;
+            this.ExternalStatus = ExternalStatus_;
+            this.PatExtID = PatExtID_;
+            this.GuarantorExtID = GuarantorExtID_;
+            this.EntrySystem = EntrySystem_;
+            this.EntryDateTime = EntryDateTime_;
+            this.LastUpdateMethod = LastUpdateMethod_;
+            this.LastUpdateSystem = LastUpdateSystem_;
+            this.VisitNumber = VisitNumber_;
+            this.PATIMAGEID = PATIMAGEID_;
+            this.INITPROVID = INITPROVID_;
+            this.INITPROVDB = INITPROVDB_;
+            this.RELIGION = RELIGION_;
+            this.RVUID = RVUID_;
+            this.RVUDB = RVUDB_;
+            this.MedHistoryViewDate = MedHistoryViewDate_;
+            this.DDB_LAST_MOD = DDB_LAST_MOD_;
+            this.PatClass = PatClass_;
+            this.PatFacility = PatFacility_;
+            this.PatAlias_LastName = PatAlias_LastName_;
+            this.PatAlias_FirstName = PatAlias_FirstName_;
+            this.PatAlias_MiddleName = PatAlias_MiddleName_;
+            this.PatAlias_Suffix = PatAlias_Suffix_;
+            this.PatAlias_Prefix = PatAlias_Prefix_;
+            this.MotherMaiden_LName = MotherMaiden_LName_;
+            this.MotherMaiden_FName = MotherMaiden_FName_;
+            this.MotherMaiden_MName = MotherMaiden_MName_;
+            this.MotherMaiden_Suffix = MotherMaiden_Suffix_;
+            this.MotherMaiden_Prefix = MotherMaiden_Prefix_;
+            this.PatientDeathDate = PatientDeathDate_;
+            this.Language = Language_;
+            this.PovertyLevel = PovertyLevel_;
+            this.WorkerStatus = WorkerStatus_;
+            this.HomelessStatus = HomelessStatus_;
+            this.PrivacyFlags = PrivacyFlags_;
+            this.PATCOPIED = PATCOPIED_;
+            this.tempchart = tempchart_;
+            this.Veteran = Veteran_;
+            this.GUIDID = GUIDID_;
+            this.TertDentInsuredID = TertDentInsuredID_;
+            this.TertDentInsuredDB = TertDentInsuredDB_;
+            this.QuatDentInsuredID = QuatDentInsuredID_;
+            this.QuatDentInsuredDB = QuatDentInsuredDB_;
+            this.TertInsRel = TertInsRel_;
+            this.QuatInsRel = QuatInsRel_;
+            this.TertInsCDADepCode = TertInsCDADepCode_;
+            this.QuatInsCDADepCode = QuatInsCDADepCode_;
+            this.OVERRIDEUSERID = OVERRIDEUSERID_;
+            this.PermDescript = PermDescript_;
+            this.EthnicityID = EthnicityID_;
+            this.UDPatCatID = UDPatCatID_;
+            this.ExtPatIDType = ExtPatIDType_;
+            this.ExtGuarIDType = ExtGuarIDType_;
+            this.PatExtID2 = PatExtID2_;
+            this.ExtPatID2Type = ExtPatID2Type_;
+            this.PatType = PatType_;
+            this.AccountStatus = AccountStatus_;
+            this.FinancialClassID = FinancialClassID_;
+            this.PatAccountNumber = PatAccountNumber_;
+            this.DeclinedEmail = DeclinedEmail_;
+            this.CommunicationPref = CommunicationPref_;
+            this.SmokingStatusID = SmokingStatusID_;
+            this.SmokingStatusDB = SmokingStatusDB_;
+            this.RxAutoRefill = RxAutoRefill_;
+            this.OtherRace = OtherRace_;
+            this.HousingStatus = HousingStatus_;
+            this.FamSize = FamSize_;
+            this.SexualOrientation = SexualOrientation_;
+            this.GenderIdentity = GenderIdentity_;
+            this.HohIncome = HohIncome_;
+            this.IncomeRecurr = IncomeRecurr_;
+            this.PracticeIdInt = PracticeIdInt_;
+            this.LastUpdateTimestamp = LastUpdateTimestamp_;
+            this.IsDeletedFromSource = IsDeletedFromSource_;
+            this.MinProcDate_di = MinProcDate_di_;
+            this.MaxProcDate_di = MaxProcDate_di_;
+            this.LastPerioProc_di = LastPerioProc_di_;
+            this.LastHygieneProc_di = LastHygieneProc_di_;
+            this.PatientValue_0to6 = PatientValue_0to6_;
+            this.PatientValue_7to12 = PatientValue_7to12_;
+            this.PatientValue_13to18 = PatientValue_13to18_;
+            this.PatientValue_19to24 = PatientValue_19to24_;
+            this.PatientValue_25to30 = PatientValue_25to30_;
+            this.PatientValue_31to36 = PatientValue_31to36_;
+            this.UnScheduledTX = UnScheduledTX_;
+            this.TotalTX = TotalTX_;
+            this.NextHygieneAppt = NextHygieneAppt_;
+            this.NextNonHygieneAppt = NextNonHygieneAppt_;
+            this.StatusModifiedDate = StatusModifiedDate_;
+            this.HygieneInterval_di = HygieneInterval_di_;
+            this.PrimaryInsurance_DI = PrimaryInsurance_DI_;
+            this.SecondaryInsurance_DI = SecondaryInsurance_DI_;
+            this.RemainingInsurance_DI = RemainingInsurance_DI_;
+            this.FirstPerioProc_DI = FirstPerioProc_DI_;
+            this.NextRestorativeAppointment_DI = NextRestorativeAppointment_DI_;
+            this.NextMiscAppointment_DI = NextMiscAppointment_DI_;
+            this.RemainingPrimaryInsurance_DI = RemainingPrimaryInsurance_DI_;
+            this.RemainingSecondaryInsurance_DI = RemainingSecondaryInsurance_DI_;
+            this.Aging0To30_di = Aging0To30_di_;
+            this.Aging31To60_di = Aging31To60_di_;
+            this.Aging61To90_di = Aging61To90_di_;
+            this.AgingPlus90_di = AgingPlus90_di_;
+            this.TotalAging_di = TotalAging_di_;
+            this.EstInsuranceAging_di = EstInsuranceAging_di_;
+            this.EstPatientAging_di = EstPatientAging_di_;
+            this.PrimaryProvider_DI = PrimaryProvider_DI_;
+            this.SecondaryProvider_DI = SecondaryProvider_DI_;
+            this.ReferralSource_DI = ReferralSource_DI_;
+            this.NextHygieneApptIsOnQuickFill_DI = NextHygieneApptIsOnQuickFill_DI_;
+            this.NextNonHygieneApptIsOnQuickFill_DI = NextNonHygieneApptIsOnQuickFill_DI_;
+            this.NextRestorativeApptIsOnQuickFill_DI = NextRestorativeApptIsOnQuickFill_DI_;
+            this.NextMiscApptIsOnQuickFill_DI = NextMiscApptIsOnQuickFill_DI_;
+            this.FamilyMembersNotScheduled_DI = FamilyMembersNotScheduled_DI_;
+            this.HygieneUnScheduledTX_DI = HygieneUnScheduledTX_DI_;
+            this.RestorativeUnScheduledTX_DI = RestorativeUnScheduledTX_DI_;
+            this.AppointmentCandidateWeightingRestorative_DI = AppointmentCandidateWeightingRestorative_DI_;
+            this.AppointmentCandidateWeightingHygiene_DI = AppointmentCandidateWeightingHygiene_DI_;
+            this.NextHygieneApptEndTime_DI = NextHygieneApptEndTime_DI_;
+            this.NextNonHygieneApptEndTime_DI = NextNonHygieneApptEndTime_DI_;
+            this.NextRestorativeAppointmentEndTime_DI = NextRestorativeAppointmentEndTime_DI_;
+            this.NextMiscAppointmentEndTime_DI = NextMiscAppointmentEndTime_DI_;
+            this.PatientIsOnUnscheduledQuickFill = PatientIsOnUnscheduledQuickFill_;
+            this.FupHygieneRecareChanged_di = FupHygieneRecareChanged_di_;
+            this.FupARChanged_di = FupARChanged_di_;
+            this.LastMajorFilmProc_di = LastMajorFilmProc_di_;
+            this.LastBiteWingProc_di = LastBiteWingProc_di_;
+            this.LastPanoProc_di = LastPanoProc_di_;
+            this.LastFmxProc_di = LastFmxProc_di_;
+            this.UnScheduledTx0To30_DI = UnScheduledTx0To30_DI_;
+            this.UnScheduledTx31To60_DI = UnScheduledTx31To60_DI_;
+            this.UnScheduledTx61To90_DI = UnScheduledTx61To90_DI_;
+            this.UnScheduledTxPlus90_DI = UnScheduledTxPlus90_DI_;
+            this.RestorativeUnScheduledTx0To30_DI = RestorativeUnScheduledTx0To30_DI_;
+            this.RestorativeUnScheduledTx31To60_DI = RestorativeUnScheduledTx31To60_DI_;
+            this.RestorativeUnScheduledTx61To90_DI = RestorativeUnScheduledTx61To90_DI_;
+            this.RestorativeUnScheduledTxPlus90_DI = RestorativeUnScheduledTxPlus90_DI_;
+            this.HygieneUnScheduledTx0To30_DI = HygieneUnScheduledTx0To30_DI_;
+            this.HygieneUnScheduledTx31To60_DI = HygieneUnScheduledTx31To60_DI_;
+            this.HygieneUnScheduledTx61To90_DI = HygieneUnScheduledTx61To90_DI_;
+            this.HygieneUnScheduledTxPlus90_DI = HygieneUnScheduledTxPlus90_DI_;
+            this.TreatmentLifetimeValue_di = TreatmentLifetimeValue_di_;
+            this.BrokenAppointmentCount_DI = BrokenAppointmentCount_DI_;
+            this.CompletedAppointmentCount_DI = CompletedAppointmentCount_DI_;
+            this.NumberPatientsReferred_DI = NumberPatientsReferred_DI_;
+            this.AppointmentCandidateSnoozeTime_DI = AppointmentCandidateSnoozeTime_DI_;
+            this.AppointmentCandidateSnoozeHours_DI = AppointmentCandidateSnoozeHours_DI_;
+            this.AppointmentCandidateContactedTime_DI = AppointmentCandidateContactedTime_DI_;
+            this.AppointmentCandidateContactedHours_DI = AppointmentCandidateContactedHours_DI_;
+            this.AppointmentPreferredDayOfWeek = AppointmentPreferredDayOfWeek_;
+            this.AppointmentPreferredHourOfDay = AppointmentPreferredHourOfDay_;
+            this.Treatment18MonthValue_DI = Treatment18MonthValue_DI_;
+            this.PATEXTIDTYPEID = PATEXTIDTYPEID_;
+            this.PATEXTIDTYPEDB = PATEXTIDTYPEDB_;
+            this.CONFIDENTIAL_STATE = CONFIDENTIAL_STATE_;
+            this.MiddleName = MiddleName_;
+            this.ConfidentialCodeID = ConfidentialCodeID_;
+            this.ConfidentialCodeDB = ConfidentialCodeDB_;
+            this.OrganDonorCode = OrganDonorCode_;
+            this.VipCode = VipCode_;
+            this.SensitivityFlag = SensitivityFlag_;
+            this.BirthPlaceCountryID = BirthPlaceCountryID_;
+            this.BirthPlaceCountryDB = BirthPlaceCountryDB_;
+            this.MultipleBirthFlag = MultipleBirthFlag_;
+            this.MultipleBirthOrder = MultipleBirthOrder_;
+            this.DNACode = DNACode_;
+            this.BloodTypeVerCode = BloodTypeVerCode_;
+            this.HOMEPHONE = HOMEPHONE_;
+            this.HOMEPHONEEXT = HOMEPHONEEXT_;
+            this.WORKEMAIL = WORKEMAIL_;
+            this.OtherEthnicityId = OtherEthnicityId_;
+            this.NextOfKinID = NextOfKinID_;
+            this.NextOfKinDB = NextOfKinDB_;
+            this.EmergencyID = EmergencyID_;
+            this.EmergencyDB = EmergencyDB_;
+            this.GuardianID = GuardianID_;
+            this.GuardianDB = GuardianDB_;
+            this.SponsorID = SponsorID_;
+            this.SponsorDB = SponsorDB_;
+            this.CreationReasonID = CreationReasonID_;
+            this.DoDUpdateAuth = DoDUpdateAuth_;
+            this.DoDUpdateAuthText = DoDUpdateAuthText_;
+            this.PrInsSubRel = PrInsSubRel_;
+            this.ScInsSubRel = ScInsSubRel_;
+            this.TertInsSubRel = TertInsSubRel_;
+            this.QuatInsSubRel = QuatInsSubRel_;
+            this.PrMedInsSubRel = PrMedInsSubRel_;
+            this.ScMedInsSubRel = ScMedInsSubRel_;
+            this.InmateID = InmateID_;
+            this.InmateDB = InmateDB_;
+            this.FamExtID = FamExtID_;
+            this.OriginalPatId = OriginalPatId_;
+            this.OriginalPatDb = OriginalPatDb_;
+            this.Hygiene18MonthPerVisitAverage_di = Hygiene18MonthPerVisitAverage_di_;
+            this.OnPaymentPlan_di = OnPaymentPlan_di_;
+            this.PaymentCampaignDoNotSendDate_DI = PaymentCampaignDoNotSendDate_DI_;
+            this.PaymentCampaignSnoozeUntil_DI = PaymentCampaignSnoozeUntil_DI_;
+            this.PaymentCampaignSnoozeReason_DI = PaymentCampaignSnoozeReason_DI_;
+            this.LastPatientPaymentDate_DI = LastPatientPaymentDate_DI_;
+            this.LastInsurancePaymentDate_DI = LastInsurancePaymentDate_DI_;
+            this.PrimaryInsuranceLastDateClaimSent_DI = PrimaryInsuranceLastDateClaimSent_DI_;
+            this.SecondaryInsuranceLastDateClaimSent_DI = SecondaryInsuranceLastDateClaimSent_DI_;
+            this.PrimaryInsuranceNumOpenClaims_DI = PrimaryInsuranceNumOpenClaims_DI_;
+            this.SecondaryInsuranceNumOpenClaims_DI = SecondaryInsuranceNumOpenClaims_DI_;
+            this.PrimaryProviderId_di = PrimaryProviderId_di_;
+            this.SecondaryProviderId_di = SecondaryProviderId_di_;
         }
     }
 }
